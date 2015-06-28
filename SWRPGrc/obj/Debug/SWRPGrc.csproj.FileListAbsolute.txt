@@ -12,3 +12,6 @@ M:\Documents\Git\Projects\SWRPGrc\SWRPGrc\obj\Debug\SWRPGrc.exe
 M:\Documents\Git\Projects\SWRPGrc\SWRPGrc\obj\Debug\SWRPGrc.pdb
 C:\Users\Michael\Documents\Projects\SWRPGrc\SWRPGrc\obj\Debug\SWRPGrc.exe
 C:\Users\Michael\Documents\Projects\SWRPGrc\SWRPGrc\obj\Debug\SWRPGrc.pdb
+C:\Users\Michael\Documents\Projects\SWRPGrc\SWRPGrc\obj\Debug\SWRPGrc.ExampleForm.resources
+C:\Users\Michael\Documents\Projects\SWRPGrc\SWRPGrc\bin\Debug\SWRPGrc.exe
+C:\Users\Michael\Documents\Projects\SWRPGrc\SWRPGrc\bin\Debug\SWRPGrc.pdb
