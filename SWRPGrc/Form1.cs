@@ -14,6 +14,7 @@ namespace SWRPGrc
         public Form1()
         {
             InitializeComponent();
+            this.Controls.Add(new SWRPGrc.Views.CharacterSheet());
         }
     }
 }
