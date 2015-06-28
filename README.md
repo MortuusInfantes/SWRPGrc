@@ -1,1 +1,3 @@
-TODO: Write README
+This source code aspires to compile into a client-server application that facilitates sessions of the Star Wars Role Playing Game revised core edition. We are hobbyists that do not plan on commercializing any aspect of the Star Wars Role Playing Game intellectual property, we simply wish to create a network-based platform to continue enjoying this fantastic universe as our group drifts further and further apart.
+
+-Mort
