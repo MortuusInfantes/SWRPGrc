@@ -1,0 +1,4 @@
+C:\Users\Michael\Documents\Projects\SWRPGrc\SWRPGrc\obj\Debug\SWRPGrc.csprojResolveAssemblyReference.cache
+C:\Users\Michael\Documents\Projects\SWRPGrc\SWRPGrc\obj\Debug\SWRPGrc.Properties.Resources.resources
+C:\Users\Michael\Documents\Projects\SWRPGrc\SWRPGrc\obj\Debug\SWRPGrc.Views.CharacterSheet.resources
+C:\Users\Michael\Documents\Projects\SWRPGrc\SWRPGrc\obj\Debug\SWRPGrc.csproj.GenerateResource.Cache
