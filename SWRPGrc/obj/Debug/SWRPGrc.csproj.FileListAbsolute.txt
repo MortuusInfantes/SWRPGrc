@@ -11,9 +11,21 @@ M:\Documents\Git\Projects\SWRPGrc\SWRPGrc\obj\Debug\SWRPGrc.exe
 M:\Documents\Git\Projects\SWRPGrc\SWRPGrc\obj\Debug\SWRPGrc.pdb
 M:\Documents\Git\Projects\SWRPGrc\SWRPGrc\obj\Debug\SWRPGrc.csprojResolveAssemblyReference.cache
 M:\Documents\Git\Projects\SWRPGrc\SWRPGrc\obj\Debug\SWRPGrc.Form1.resources
+<<<<<<< HEAD
 C:\Users\Michael\Documents\Projects\SWRPGrc\SWRPGrc\obj\Debug\SWRPGrc.exe
 C:\Users\Michael\Documents\Projects\SWRPGrc\SWRPGrc\obj\Debug\SWRPGrc.pdb
 C:\Users\Michael\Documents\Projects\SWRPGrc\SWRPGrc\obj\Debug\SWRPGrc.Form1.resources
 C:\Users\Michael\Documents\Projects\SWRPGrc\SWRPGrc\bin\Debug\SWRPGrc.exe
 C:\Users\Michael\Documents\Projects\SWRPGrc\SWRPGrc\bin\Debug\SWRPGrc.pdb
 C:\Users\Michael\Documents\Projects\SWRPGrc\SWRPGrc\obj\Debug\SWRPGrc.Views.CharacterSheet2.resources
+=======
+M:\Documents\Git\Projects\temp\SWRPGrc\obj\Debug\SWRPGrc.exe
+M:\Documents\Git\Projects\temp\SWRPGrc\obj\Debug\SWRPGrc.pdb
+M:\Documents\Git\Projects\temp\SWRPGrc\bin\Debug\SWRPGrc.exe
+M:\Documents\Git\Projects\temp\SWRPGrc\bin\Debug\SWRPGrc.pdb
+M:\Documents\Git\Projects\temp\SWRPGrc\obj\Debug\SWRPGrc.csprojResolveAssemblyReference.cache
+M:\Documents\Git\Projects\temp\SWRPGrc\obj\Debug\SWRPGrc.Form1.resources
+M:\Documents\Git\Projects\temp\SWRPGrc\obj\Debug\SWRPGrc.Properties.Resources.resources
+M:\Documents\Git\Projects\temp\SWRPGrc\obj\Debug\SWRPGrc.Views.CharacterSheet.resources
+M:\Documents\Git\Projects\temp\SWRPGrc\obj\Debug\SWRPGrc.csproj.GenerateResource.Cache
+>>>>>>> 25f380fb0a141e2301c65f6675f306e4740c057b
