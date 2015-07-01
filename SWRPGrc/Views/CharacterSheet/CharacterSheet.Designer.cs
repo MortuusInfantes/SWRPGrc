@@ -79,7 +79,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
+            this.Total = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
@@ -123,6 +123,23 @@
             this.RangeSizeModtextBox = new System.Windows.Forms.TextBox();
             this.MelleeMiscModTextBox = new System.Windows.Forms.TextBox();
             this.RangeMiscModTextBox = new System.Windows.Forms.TextBox();
+            this.DefenseTotalTextBox = new System.Windows.Forms.TextBox();
+            this.DefenseMiscModTextBox = new System.Windows.Forms.TextBox();
+            this.SizeModTextBox = new System.Windows.Forms.TextBox();
+            this.DefenseDexModTextBox = new System.Windows.Forms.TextBox();
+            this.DefenseClassBonusTextBox = new System.Windows.Forms.TextBox();
+            this.ArmorCheckPenaltyTextBox = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.DarkSidePointsTextBox = new System.Windows.Forms.TextBox();
+            this.D = new System.Windows.Forms.TextBox();
+            this.InitativeMiscModTextBox = new System.Windows.Forms.TextBox();
+            this.InitiativeDexModTextBox = new System.Windows.Forms.TextBox();
+            this.InitiativeTotalTextBox = new System.Windows.Forms.TextBox();
+            this.ReputationTextBox = new System.Windows.Forms.TextBox();
+            this.BaseAttackTextBox = new System.Windows.Forms.TextBox();
+            this.SpeedTextBox = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -293,16 +310,16 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(623, 211);
+            this.label12.Location = new System.Drawing.Point(618, 215);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(41, 13);
+            this.label12.Size = new System.Drawing.Size(51, 13);
             this.label12.TabIndex = 24;
-            this.label12.Text = "label12";
+            this.label12.Text = "Size Mod";
             // 
             // CurrentWoundsLabel
             // 
             this.CurrentWoundsLabel.AutoSize = true;
-            this.CurrentWoundsLabel.Location = new System.Drawing.Point(662, 135);
+            this.CurrentWoundsLabel.Location = new System.Drawing.Point(648, 135);
             this.CurrentWoundsLabel.Name = "CurrentWoundsLabel";
             this.CurrentWoundsLabel.Size = new System.Drawing.Size(41, 13);
             this.CurrentWoundsLabel.TabIndex = 25;
@@ -329,11 +346,11 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(668, 211);
+            this.label9.Location = new System.Drawing.Point(668, 215);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(35, 13);
+            this.label9.Size = new System.Drawing.Size(53, 13);
             this.label9.TabIndex = 21;
-            this.label9.Text = "label9";
+            this.label9.Text = "Misc Mod";
             // 
             // panel2
             // 
@@ -400,7 +417,7 @@
             // CampaignLabel
             // 
             this.CampaignLabel.AutoSize = true;
-            this.CampaignLabel.Location = new System.Drawing.Point(412, 30);
+            this.CampaignLabel.Location = new System.Drawing.Point(407, 30);
             this.CampaignLabel.Name = "CampaignLabel";
             this.CampaignLabel.Size = new System.Drawing.Size(54, 13);
             this.CampaignLabel.TabIndex = 31;
@@ -415,14 +432,14 @@
             // 
             // PlayerNameTextBox
             // 
-            this.PlayerNameTextBox.Location = new System.Drawing.Point(296, 23);
+            this.PlayerNameTextBox.Location = new System.Drawing.Point(291, 24);
             this.PlayerNameTextBox.Name = "PlayerNameTextBox";
             this.PlayerNameTextBox.Size = new System.Drawing.Size(100, 20);
             this.PlayerNameTextBox.TabIndex = 33;
             // 
             // CampaignTextBox
             // 
-            this.CampaignTextBox.Location = new System.Drawing.Point(472, 23);
+            this.CampaignTextBox.Location = new System.Drawing.Point(460, 23);
             this.CampaignTextBox.Name = "CampaignTextBox";
             this.CampaignTextBox.Size = new System.Drawing.Size(100, 20);
             this.CampaignTextBox.TabIndex = 34;
@@ -492,28 +509,28 @@
             // 
             // VitalityTotalTextBox
             // 
-            this.VitalityTotalTextBox.Location = new System.Drawing.Point(463, 150);
+            this.VitalityTotalTextBox.Location = new System.Drawing.Point(470, 150);
             this.VitalityTotalTextBox.Name = "VitalityTotalTextBox";
             this.VitalityTotalTextBox.Size = new System.Drawing.Size(25, 20);
             this.VitalityTotalTextBox.TabIndex = 44;
             // 
             // CurrentVitalityTextBox
             // 
-            this.CurrentVitalityTextBox.Location = new System.Drawing.Point(509, 150);
+            this.CurrentVitalityTextBox.Location = new System.Drawing.Point(509, 151);
             this.CurrentVitalityTextBox.Name = "CurrentVitalityTextBox";
             this.CurrentVitalityTextBox.Size = new System.Drawing.Size(25, 20);
             this.CurrentVitalityTextBox.TabIndex = 45;
             // 
             // CurrentWoundsTextBox
             // 
-            this.CurrentWoundsTextBox.Location = new System.Drawing.Point(665, 150);
+            this.CurrentWoundsTextBox.Location = new System.Drawing.Point(654, 151);
             this.CurrentWoundsTextBox.Name = "CurrentWoundsTextBox";
             this.CurrentWoundsTextBox.Size = new System.Drawing.Size(25, 20);
             this.CurrentWoundsTextBox.TabIndex = 46;
             // 
             // TotalWoundsTextBox
             // 
-            this.TotalWoundsTextBox.Location = new System.Drawing.Point(614, 150);
+            this.TotalWoundsTextBox.Location = new System.Drawing.Point(614, 151);
             this.TotalWoundsTextBox.Name = "TotalWoundsTextBox";
             this.TotalWoundsTextBox.Size = new System.Drawing.Size(25, 20);
             this.TotalWoundsTextBox.TabIndex = 47;
@@ -521,92 +538,92 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(717, 211);
+            this.label3.Location = new System.Drawing.Point(717, 215);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
+            this.label3.Size = new System.Drawing.Size(105, 13);
             this.label3.TabIndex = 48;
-            this.label3.Text = "label3";
+            this.label3.Text = "Armor check Penalty";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(524, 211);
+            this.label4.Location = new System.Drawing.Point(498, 215);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 13);
+            this.label4.Size = new System.Drawing.Size(65, 13);
             this.label4.TabIndex = 49;
-            this.label4.Text = "label4";
+            this.label4.Text = "Class Bonus";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(680, 254);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 13);
+            this.label5.Size = new System.Drawing.Size(59, 13);
             this.label5.TabIndex = 50;
-            this.label5.Text = "label5";
+            this.label5.Text = "Reputation";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(412, 254);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(35, 13);
+            this.label6.Size = new System.Drawing.Size(38, 13);
             this.label6.TabIndex = 51;
-            this.label6.Text = "label6";
+            this.label6.Text = "Speed";
             // 
-            // label13
+            // Total
             // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(459, 211);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(41, 13);
-            this.label13.TabIndex = 52;
-            this.label13.Text = "label13";
+            this.Total.AutoSize = true;
+            this.Total.Location = new System.Drawing.Point(459, 215);
+            this.Total.Name = "Total";
+            this.Total.Size = new System.Drawing.Size(31, 13);
+            this.Total.TabIndex = 52;
+            this.Total.Text = "Total";
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(576, 211);
+            this.label14.Location = new System.Drawing.Point(567, 215);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(41, 13);
+            this.label14.Size = new System.Drawing.Size(50, 13);
             this.label14.TabIndex = 53;
-            this.label14.Text = "label14";
+            this.label14.Text = "Dex Mod";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(500, 254);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(35, 13);
+            this.label8.Size = new System.Drawing.Size(65, 13);
             this.label8.TabIndex = 54;
-            this.label8.Text = "label8";
+            this.label8.Text = "Base Attack";
             // 
             // label16
             // 
             this.label16.AutoSize = true;
             this.label16.Location = new System.Drawing.Point(517, 282);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(41, 13);
+            this.label16.Size = new System.Drawing.Size(46, 13);
             this.label16.TabIndex = 55;
-            this.label16.Text = "label16";
+            this.label16.Text = "Initiative";
             // 
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(579, 282);
+            this.label17.Location = new System.Drawing.Point(560, 308);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(41, 13);
+            this.label17.Size = new System.Drawing.Size(31, 13);
             this.label17.TabIndex = 56;
-            this.label17.Text = "label17";
+            this.label17.Text = "Total";
             // 
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(627, 281);
+            this.label18.Location = new System.Drawing.Point(604, 308);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(41, 13);
+            this.label18.Size = new System.Drawing.Size(50, 13);
             this.label18.TabIndex = 57;
-            this.label18.Text = "label18";
+            this.label18.Text = "Dex Mod";
             // 
             // FortitudeLabel
             // 
@@ -647,7 +664,7 @@
             // RangeLabel
             // 
             this.RangeLabel.AutoSize = true;
-            this.RangeLabel.Location = new System.Drawing.Point(26, 581);
+            this.RangeLabel.Location = new System.Drawing.Point(28, 586);
             this.RangeLabel.Name = "RangeLabel";
             this.RangeLabel.Size = new System.Drawing.Size(39, 13);
             this.RangeLabel.TabIndex = 62;
@@ -768,7 +785,7 @@
             // 
             // WillTotalTextBox
             // 
-            this.WillTotalTextBox.Location = new System.Drawing.Point(112, 498);
+            this.WillTotalTextBox.Location = new System.Drawing.Point(111, 498);
             this.WillTotalTextBox.Name = "WillTotalTextBox";
             this.WillTotalTextBox.Size = new System.Drawing.Size(22, 20);
             this.WillTotalTextBox.TabIndex = 77;
@@ -782,42 +799,42 @@
             // 
             // ReflexBaseSavetextBox
             // 
-            this.ReflexBaseSavetextBox.Location = new System.Drawing.Point(180, 472);
+            this.ReflexBaseSavetextBox.Location = new System.Drawing.Point(183, 472);
             this.ReflexBaseSavetextBox.Name = "ReflexBaseSavetextBox";
             this.ReflexBaseSavetextBox.Size = new System.Drawing.Size(22, 20);
             this.ReflexBaseSavetextBox.TabIndex = 79;
             // 
             // WillBaseSavetextBox
             // 
-            this.WillBaseSavetextBox.Location = new System.Drawing.Point(187, 495);
+            this.WillBaseSavetextBox.Location = new System.Drawing.Point(183, 498);
             this.WillBaseSavetextBox.Name = "WillBaseSavetextBox";
             this.WillBaseSavetextBox.Size = new System.Drawing.Size(22, 20);
             this.WillBaseSavetextBox.TabIndex = 80;
             // 
             // FortitudeAbilityModTextBox
             // 
-            this.FortitudeAbilityModTextBox.Location = new System.Drawing.Point(268, 446);
+            this.FortitudeAbilityModTextBox.Location = new System.Drawing.Point(269, 450);
             this.FortitudeAbilityModTextBox.Name = "FortitudeAbilityModTextBox";
             this.FortitudeAbilityModTextBox.Size = new System.Drawing.Size(22, 20);
             this.FortitudeAbilityModTextBox.TabIndex = 81;
             // 
             // ReflexAbilityModTextBox
             // 
-            this.ReflexAbilityModTextBox.Location = new System.Drawing.Point(268, 472);
+            this.ReflexAbilityModTextBox.Location = new System.Drawing.Point(269, 472);
             this.ReflexAbilityModTextBox.Name = "ReflexAbilityModTextBox";
             this.ReflexAbilityModTextBox.Size = new System.Drawing.Size(22, 20);
             this.ReflexAbilityModTextBox.TabIndex = 82;
             // 
             // WillAbilityModTextBox
             // 
-            this.WillAbilityModTextBox.Location = new System.Drawing.Point(268, 495);
+            this.WillAbilityModTextBox.Location = new System.Drawing.Point(269, 498);
             this.WillAbilityModTextBox.Name = "WillAbilityModTextBox";
             this.WillAbilityModTextBox.Size = new System.Drawing.Size(22, 20);
             this.WillAbilityModTextBox.TabIndex = 83;
             // 
             // FortitudeMiscModTextBox
             // 
-            this.FortitudeMiscModTextBox.Location = new System.Drawing.Point(330, 446);
+            this.FortitudeMiscModTextBox.Location = new System.Drawing.Point(330, 450);
             this.FortitudeMiscModTextBox.Name = "FortitudeMiscModTextBox";
             this.FortitudeMiscModTextBox.Size = new System.Drawing.Size(22, 20);
             this.FortitudeMiscModTextBox.TabIndex = 84;
@@ -838,28 +855,28 @@
             // 
             // MeleeTotalTextBox
             // 
-            this.MeleeTotalTextBox.Location = new System.Drawing.Point(78, 548);
+            this.MeleeTotalTextBox.Location = new System.Drawing.Point(78, 541);
             this.MeleeTotalTextBox.Name = "MeleeTotalTextBox";
             this.MeleeTotalTextBox.Size = new System.Drawing.Size(22, 20);
             this.MeleeTotalTextBox.TabIndex = 87;
             // 
             // RangeTotalTextBox
             // 
-            this.RangeTotalTextBox.Location = new System.Drawing.Point(72, 574);
+            this.RangeTotalTextBox.Location = new System.Drawing.Point(80, 583);
             this.RangeTotalTextBox.Name = "RangeTotalTextBox";
             this.RangeTotalTextBox.Size = new System.Drawing.Size(22, 20);
             this.RangeTotalTextBox.TabIndex = 88;
             // 
             // MeleeBaseTextBox
             // 
-            this.MeleeBaseTextBox.Location = new System.Drawing.Point(158, 541);
+            this.MeleeBaseTextBox.Location = new System.Drawing.Point(152, 541);
             this.MeleeBaseTextBox.Name = "MeleeBaseTextBox";
             this.MeleeBaseTextBox.Size = new System.Drawing.Size(22, 20);
             this.MeleeBaseTextBox.TabIndex = 89;
             // 
             // RangBaseTextBox
             // 
-            this.RangBaseTextBox.Location = new System.Drawing.Point(152, 574);
+            this.RangBaseTextBox.Location = new System.Drawing.Point(152, 583);
             this.RangBaseTextBox.Name = "RangBaseTextBox";
             this.RangBaseTextBox.Size = new System.Drawing.Size(22, 20);
             this.RangBaseTextBox.TabIndex = 90;
@@ -901,15 +918,157 @@
             // 
             // RangeMiscModTextBox
             // 
-            this.RangeMiscModTextBox.Location = new System.Drawing.Point(330, 581);
+            this.RangeMiscModTextBox.Location = new System.Drawing.Point(330, 583);
             this.RangeMiscModTextBox.Name = "RangeMiscModTextBox";
             this.RangeMiscModTextBox.Size = new System.Drawing.Size(22, 20);
             this.RangeMiscModTextBox.TabIndex = 96;
+            // 
+            // DefenseTotalTextBox
+            // 
+            this.DefenseTotalTextBox.Location = new System.Drawing.Point(470, 187);
+            this.DefenseTotalTextBox.Name = "DefenseTotalTextBox";
+            this.DefenseTotalTextBox.Size = new System.Drawing.Size(26, 20);
+            this.DefenseTotalTextBox.TabIndex = 97;
+            // 
+            // DefenseMiscModTextBox
+            // 
+            this.DefenseMiscModTextBox.Location = new System.Drawing.Point(683, 187);
+            this.DefenseMiscModTextBox.Name = "DefenseMiscModTextBox";
+            this.DefenseMiscModTextBox.Size = new System.Drawing.Size(26, 20);
+            this.DefenseMiscModTextBox.TabIndex = 98;
+            // 
+            // SizeModTextBox
+            // 
+            this.SizeModTextBox.Location = new System.Drawing.Point(635, 187);
+            this.SizeModTextBox.Name = "SizeModTextBox";
+            this.SizeModTextBox.Size = new System.Drawing.Size(26, 20);
+            this.SizeModTextBox.TabIndex = 99;
+            // 
+            // DefenseDexModTextBox
+            // 
+            this.DefenseDexModTextBox.Location = new System.Drawing.Point(565, 187);
+            this.DefenseDexModTextBox.Name = "DefenseDexModTextBox";
+            this.DefenseDexModTextBox.Size = new System.Drawing.Size(26, 20);
+            this.DefenseDexModTextBox.TabIndex = 100;
+            // 
+            // DefenseClassBonusTextBox
+            // 
+            this.DefenseClassBonusTextBox.Location = new System.Drawing.Point(509, 187);
+            this.DefenseClassBonusTextBox.Name = "DefenseClassBonusTextBox";
+            this.DefenseClassBonusTextBox.Size = new System.Drawing.Size(26, 20);
+            this.DefenseClassBonusTextBox.TabIndex = 101;
+            // 
+            // ArmorCheckPenaltyTextBox
+            // 
+            this.ArmorCheckPenaltyTextBox.Location = new System.Drawing.Point(738, 187);
+            this.ArmorCheckPenaltyTextBox.Name = "ArmorCheckPenaltyTextBox";
+            this.ArmorCheckPenaltyTextBox.Size = new System.Drawing.Size(26, 20);
+            this.ArmorCheckPenaltyTextBox.TabIndex = 102;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(662, 308);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(53, 13);
+            this.label13.TabIndex = 103;
+            this.label13.Text = "Misc Mod";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(636, 383);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(86, 13);
+            this.label19.TabIndex = 104;
+            this.label19.Text = "Dark Side Points";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(550, 383);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(66, 13);
+            this.label20.TabIndex = 105;
+            this.label20.Text = "Force Points";
+            // 
+            // DarkSidePointsTextBox
+            // 
+            this.DarkSidePointsTextBox.Location = new System.Drawing.Point(663, 360);
+            this.DarkSidePointsTextBox.Name = "DarkSidePointsTextBox";
+            this.DarkSidePointsTextBox.Size = new System.Drawing.Size(26, 20);
+            this.DarkSidePointsTextBox.TabIndex = 106;
+            // 
+            // D
+            // 
+            this.D.Location = new System.Drawing.Point(565, 360);
+            this.D.Name = "D";
+            this.D.Size = new System.Drawing.Size(26, 20);
+            this.D.TabIndex = 107;
+            // 
+            // InitativeMiscModTextBox
+            // 
+            this.InitativeMiscModTextBox.Location = new System.Drawing.Point(663, 279);
+            this.InitativeMiscModTextBox.Name = "InitativeMiscModTextBox";
+            this.InitativeMiscModTextBox.Size = new System.Drawing.Size(26, 20);
+            this.InitativeMiscModTextBox.TabIndex = 108;
+            // 
+            // InitiativeDexModTextBox
+            // 
+            this.InitiativeDexModTextBox.Location = new System.Drawing.Point(614, 279);
+            this.InitiativeDexModTextBox.Name = "InitiativeDexModTextBox";
+            this.InitiativeDexModTextBox.Size = new System.Drawing.Size(26, 20);
+            this.InitiativeDexModTextBox.TabIndex = 109;
+            // 
+            // InitiativeTotalTextBox
+            // 
+            this.InitiativeTotalTextBox.Location = new System.Drawing.Point(565, 279);
+            this.InitiativeTotalTextBox.Name = "InitiativeTotalTextBox";
+            this.InitiativeTotalTextBox.Size = new System.Drawing.Size(26, 20);
+            this.InitiativeTotalTextBox.TabIndex = 110;
+            // 
+            // ReputationTextBox
+            // 
+            this.ReputationTextBox.Location = new System.Drawing.Point(738, 251);
+            this.ReputationTextBox.Name = "ReputationTextBox";
+            this.ReputationTextBox.Size = new System.Drawing.Size(26, 20);
+            this.ReputationTextBox.TabIndex = 111;
+            // 
+            // BaseAttackTextBox
+            // 
+            this.BaseAttackTextBox.Location = new System.Drawing.Point(565, 247);
+            this.BaseAttackTextBox.Name = "BaseAttackTextBox";
+            this.BaseAttackTextBox.Size = new System.Drawing.Size(26, 20);
+            this.BaseAttackTextBox.TabIndex = 112;
+            // 
+            // SpeedTextBox
+            // 
+            this.SpeedTextBox.Location = new System.Drawing.Point(456, 254);
+            this.SpeedTextBox.Name = "SpeedTextBox";
+            this.SpeedTextBox.Size = new System.Drawing.Size(26, 20);
+            this.SpeedTextBox.TabIndex = 113;
             // 
             // CharacterSheet
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.SpeedTextBox);
+            this.Controls.Add(this.BaseAttackTextBox);
+            this.Controls.Add(this.ReputationTextBox);
+            this.Controls.Add(this.InitiativeTotalTextBox);
+            this.Controls.Add(this.InitiativeDexModTextBox);
+            this.Controls.Add(this.InitativeMiscModTextBox);
+            this.Controls.Add(this.D);
+            this.Controls.Add(this.DarkSidePointsTextBox);
+            this.Controls.Add(this.label20);
+            this.Controls.Add(this.label19);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.ArmorCheckPenaltyTextBox);
+            this.Controls.Add(this.DefenseClassBonusTextBox);
+            this.Controls.Add(this.DefenseDexModTextBox);
+            this.Controls.Add(this.SizeModTextBox);
+            this.Controls.Add(this.DefenseMiscModTextBox);
+            this.Controls.Add(this.DefenseTotalTextBox);
             this.Controls.Add(this.RangeMiscModTextBox);
             this.Controls.Add(this.MelleeMiscModTextBox);
             this.Controls.Add(this.RangeSizeModtextBox);
@@ -953,7 +1112,7 @@
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label14);
-            this.Controls.Add(this.label13);
+            this.Controls.Add(this.Total);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -1067,7 +1226,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label Total;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label16;
@@ -1111,6 +1270,23 @@
         private System.Windows.Forms.TextBox RangeSizeModtextBox;
         private System.Windows.Forms.TextBox MelleeMiscModTextBox;
         private System.Windows.Forms.TextBox RangeMiscModTextBox;
+        private System.Windows.Forms.TextBox DefenseTotalTextBox;
+        private System.Windows.Forms.TextBox DefenseMiscModTextBox;
+        private System.Windows.Forms.TextBox SizeModTextBox;
+        private System.Windows.Forms.TextBox DefenseDexModTextBox;
+        private System.Windows.Forms.TextBox DefenseClassBonusTextBox;
+        private System.Windows.Forms.TextBox ArmorCheckPenaltyTextBox;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.TextBox DarkSidePointsTextBox;
+        private System.Windows.Forms.TextBox D;
+        private System.Windows.Forms.TextBox InitativeMiscModTextBox;
+        private System.Windows.Forms.TextBox InitiativeDexModTextBox;
+        private System.Windows.Forms.TextBox InitiativeTotalTextBox;
+        private System.Windows.Forms.TextBox ReputationTextBox;
+        private System.Windows.Forms.TextBox BaseAttackTextBox;
+        private System.Windows.Forms.TextBox SpeedTextBox;
 
     }
 }
