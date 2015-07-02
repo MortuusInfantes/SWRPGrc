@@ -61,6 +61,11 @@
     <Compile Include="IRenderable.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Views\CharacterSheet\CharacterSheet.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -72,13 +77,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Views\CharacterSheet\CharacterSheet.resx">
       <DependentUpon>CharacterSheet.cs</DependentUpon>
     </EmbeddedResource>
@@ -92,12 +93,18 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
+    <Folder Include="Resources\CharacterSheetImages\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle3355.png" />
+    <None Include="Resources\bitmap1.png" />
     <Content Include="Resources\CharacterSheets\CharacterSheetV3.5\characterSheetSide1.jpg" />
     <Content Include="Resources\CharacterSheets\CharacterSheetV3.5\characterSheetSide2.jpg" />
     <Content Include="Resources\CharacterSheets\CharacterSheetNewVersion\MI_StarWarsCharSheet20-page-001.jpg" />
     <Content Include="Resources\CharacterSheets\CharacterSheetNewVersion\MI_StarWarsCharSheet20-page-002.jpg" />
+    <None Include="Resources\newtest.png" />
+    <None Include="Resources\rect3414.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

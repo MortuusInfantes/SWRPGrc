@@ -15,7 +15,6 @@ M:\Documents\Git\Projects\temp\SWRPGrc\obj\Debug\SWRPGrc.exe
 M:\Documents\Git\Projects\temp\SWRPGrc\obj\Debug\SWRPGrc.pdb
 M:\Documents\Git\Projects\temp\SWRPGrc\bin\Debug\SWRPGrc.exe
 M:\Documents\Git\Projects\temp\SWRPGrc\bin\Debug\SWRPGrc.pdb
-M:\Documents\Git\Projects\temp\SWRPGrc\obj\Debug\SWRPGrc.csprojResolveAssemblyReference.cache
 M:\Documents\Git\Projects\temp\SWRPGrc\obj\Debug\SWRPGrc.Form1.resources
 M:\Documents\Git\Projects\temp\SWRPGrc\obj\Debug\SWRPGrc.Properties.Resources.resources
 M:\Documents\Git\Projects\temp\SWRPGrc\obj\Debug\SWRPGrc.Views.CharacterSheet.resources
