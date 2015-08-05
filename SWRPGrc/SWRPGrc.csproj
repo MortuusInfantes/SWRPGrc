@@ -46,12 +46,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\Character.cs" />
+    <Compile Include="Classes\CustomMap.cs" />
     <Compile Include="Classes\DataEncoder.cs" />
     <Compile Include="Classes\DataReader.cs" />
     <Compile Include="Classes\DataTypes.cs" />
     <Compile Include="Classes\DataWriter.cs" />
+    <Compile Include="Classes\Map.cs" />
+    <Compile Include="Classes\MapElements\AMapElement.cs" />
+    <Compile Include="Classes\MapElements\meField.cs" />
+    <Compile Include="Classes\MapElements\meRiver.cs" />
+    <Compile Include="Classes\MapElements\meTree.cs" />
+    <Compile Include="Classes\MeleeWeapon.cs" />
     <Compile Include="Classes\NonPlayerCharacter.cs" />
     <Compile Include="Classes\PlayerCharacter.cs" />
+    <Compile Include="Classes\RangedWeapon.cs" />
+    <Compile Include="Classes\Weapon.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,11 +93,29 @@
     <Compile Include="Views\MainMenu.Designer.cs">
       <DependentUpon>MainMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\Mapper.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Mapper.Designer.cs">
+      <DependentUpon>Mapper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MapperTest.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\MapperTest.Designer.cs">
+      <DependentUpon>MapperTest.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\SignUp.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Views\SignUp.Designer.cs">
       <DependentUpon>SignUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Welcome.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Welcome.Designer.cs">
+      <DependentUpon>Welcome.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -107,8 +134,17 @@
     <EmbeddedResource Include="Views\MainMenu.resx">
       <DependentUpon>MainMenu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\Mapper.resx">
+      <DependentUpon>Mapper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MapperTest.resx">
+      <DependentUpon>MapperTest.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\SignUp.resx">
       <DependentUpon>SignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Welcome.resx">
+      <DependentUpon>Welcome.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
