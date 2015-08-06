@@ -7,20 +7,16 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
+using SWRPGrc.Classes;
+
 namespace SWRPGrc.Views
 {
-    public partial class CharacterSheet : UserControl
+    public partial class MapperTest : Mapper
     {
-        private Form1 parent;
 
-        public CharacterSheet(Form1 parent)
+        public MapperTest(Form1 parent) : base(parent, true)
         {
-            InitializeComponent();
-            this.parent = parent;
+            base.map = new CustomMap();
         }
-
-             
-
-                
     }
 }

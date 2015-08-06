@@ -21,3 +21,14 @@ M:\Documents\Git\Projects\temp\SWRPGrc\obj\Debug\SWRPGrc.Views.CharacterSheet.re
 M:\Documents\Git\Projects\temp\SWRPGrc\obj\Debug\SWRPGrc.csproj.GenerateResource.Cache
 M:\Documents\Git\Projects\temp\SWRPGrc\obj\Debug\SWRPGrc.csprojResolveAssemblyReference.cache
 M:\Documents\Git\Projects\temp\SWRPGrc\obj\Debug\SWRPGrc.Views.Login.resources
+C:\Users\Michael\Documents\Projects\SWRPGrc\SWRPGrc\obj\Debug\SWRPGrc.exe
+C:\Users\Michael\Documents\Projects\SWRPGrc\SWRPGrc\obj\Debug\SWRPGrc.pdb
+C:\Users\Michael\Documents\Projects\SWRPGrc\SWRPGrc\bin\Debug\SWRPGrc.exe
+C:\Users\Michael\Documents\Projects\SWRPGrc\SWRPGrc\bin\Debug\SWRPGrc.pdb
+C:\Users\Michael\Documents\Projects\SWRPGrc\SWRPGrc\obj\Debug\SWRPGrc.Form1.resources
+C:\Users\Michael\Documents\Projects\SWRPGrc\SWRPGrc\obj\Debug\SWRPGrc.Views.Login.resources
+C:\Users\Michael\Documents\Projects\SWRPGrc\SWRPGrc\obj\Debug\SWRPGrc.Views.MainMenu.resources
+C:\Users\Michael\Documents\Projects\SWRPGrc\SWRPGrc\obj\Debug\SWRPGrc.Views.Mapper.resources
+C:\Users\Michael\Documents\Projects\SWRPGrc\SWRPGrc\obj\Debug\SWRPGrc.Views.SignUp.resources
+C:\Users\Michael\Documents\Projects\SWRPGrc\SWRPGrc\obj\Debug\SWRPGrc.Views.Welcome.resources
+C:\Users\Michael\Documents\Projects\SWRPGrc\SWRPGrc\obj\Debug\SWRPGrc.Views.MapperTest.resources
