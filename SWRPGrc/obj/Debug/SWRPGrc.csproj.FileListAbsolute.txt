@@ -32,3 +32,8 @@ C:\Users\Michael\Documents\Projects\SWRPGrc\SWRPGrc\obj\Debug\SWRPGrc.Views.Mapp
 C:\Users\Michael\Documents\Projects\SWRPGrc\SWRPGrc\obj\Debug\SWRPGrc.Views.SignUp.resources
 C:\Users\Michael\Documents\Projects\SWRPGrc\SWRPGrc\obj\Debug\SWRPGrc.Views.Welcome.resources
 C:\Users\Michael\Documents\Projects\SWRPGrc\SWRPGrc\obj\Debug\SWRPGrc.Views.MapperTest.resources
+M:\Documents\Git\Projects\temp\SWRPGrc\obj\Debug\SWRPGrc.Views.MainMenu.resources
+M:\Documents\Git\Projects\temp\SWRPGrc\obj\Debug\SWRPGrc.Views.Mapper.resources
+M:\Documents\Git\Projects\temp\SWRPGrc\obj\Debug\SWRPGrc.Views.MapperTest.resources
+M:\Documents\Git\Projects\temp\SWRPGrc\obj\Debug\SWRPGrc.Views.SignUp.resources
+M:\Documents\Git\Projects\temp\SWRPGrc\obj\Debug\SWRPGrc.Views.Welcome.resources

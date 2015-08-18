@@ -93,16 +93,16 @@
             this.MeleeTotalTextBox = new System.Windows.Forms.TextBox();
             this.RangeTotalTextBox = new System.Windows.Forms.TextBox();
             this.MeleeBaseTextBox = new System.Windows.Forms.TextBox();
-            this.RangBaseTextBox = new System.Windows.Forms.TextBox();
+            this.RangeBaseTextBox = new System.Windows.Forms.TextBox();
             this.MeleeStrModTextBox = new System.Windows.Forms.TextBox();
             this.RangeDexModtextBox = new System.Windows.Forms.TextBox();
             this.MeleeSizeModTextBox = new System.Windows.Forms.TextBox();
             this.RangeSizeModtextBox = new System.Windows.Forms.TextBox();
-            this.MelleeMiscModTextBox = new System.Windows.Forms.TextBox();
+            this.MeleeMiscModTextBox = new System.Windows.Forms.TextBox();
             this.RangeMiscModTextBox = new System.Windows.Forms.TextBox();
             this.DefenseTotalTextBox = new System.Windows.Forms.TextBox();
             this.DefenseMiscModTextBox = new System.Windows.Forms.TextBox();
-            this.SizeModTextBox = new System.Windows.Forms.TextBox();
+            this.DefenseSizeModTextBox = new System.Windows.Forms.TextBox();
             this.DefenseDexModTextBox = new System.Windows.Forms.TextBox();
             this.DefenseClassBonusTextBox = new System.Windows.Forms.TextBox();
             this.ArmorCheckPenaltyTextBox = new System.Windows.Forms.TextBox();
@@ -110,7 +110,7 @@
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.DarkSidePointsTextBox = new System.Windows.Forms.TextBox();
-            this.D = new System.Windows.Forms.TextBox();
+            this.ForcePointsTextBox = new System.Windows.Forms.TextBox();
             this.InitativeMiscModTextBox = new System.Windows.Forms.TextBox();
             this.InitiativeDexModTextBox = new System.Windows.Forms.TextBox();
             this.InitiativeTotalTextBox = new System.Windows.Forms.TextBox();
@@ -148,6 +148,7 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.btnsave = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.panel4.SuspendLayout();
@@ -603,6 +604,7 @@
             // 
             // FortitudeTotalTextBox
             // 
+            this.FortitudeTotalTextBox.Enabled = false;
             this.FortitudeTotalTextBox.Location = new System.Drawing.Point(111, 448);
             this.FortitudeTotalTextBox.Name = "FortitudeTotalTextBox";
             this.FortitudeTotalTextBox.Size = new System.Drawing.Size(22, 20);
@@ -610,6 +612,7 @@
             // 
             // ReflexTotalTextBox
             // 
+            this.ReflexTotalTextBox.Enabled = false;
             this.ReflexTotalTextBox.Location = new System.Drawing.Point(111, 472);
             this.ReflexTotalTextBox.Name = "ReflexTotalTextBox";
             this.ReflexTotalTextBox.Size = new System.Drawing.Size(22, 20);
@@ -617,6 +620,7 @@
             // 
             // WillTotalTextBox
             // 
+            this.WillTotalTextBox.Enabled = false;
             this.WillTotalTextBox.Location = new System.Drawing.Point(111, 498);
             this.WillTotalTextBox.Name = "WillTotalTextBox";
             this.WillTotalTextBox.Size = new System.Drawing.Size(22, 20);
@@ -628,6 +632,7 @@
             this.FortitudeBaseSavetextBox.Name = "FortitudeBaseSavetextBox";
             this.FortitudeBaseSavetextBox.Size = new System.Drawing.Size(22, 20);
             this.FortitudeBaseSavetextBox.TabIndex = 78;
+            this.FortitudeBaseSavetextBox.Leave += new System.EventHandler(this.FortitudeBaseSavetextBox_Leave);
             // 
             // ReflexBaseSavetextBox
             // 
@@ -635,6 +640,7 @@
             this.ReflexBaseSavetextBox.Name = "ReflexBaseSavetextBox";
             this.ReflexBaseSavetextBox.Size = new System.Drawing.Size(22, 20);
             this.ReflexBaseSavetextBox.TabIndex = 79;
+            this.ReflexBaseSavetextBox.Leave += new System.EventHandler(this.ReflexBaseSavetextBox_Leave);
             // 
             // WillBaseSavetextBox
             // 
@@ -642,6 +648,7 @@
             this.WillBaseSavetextBox.Name = "WillBaseSavetextBox";
             this.WillBaseSavetextBox.Size = new System.Drawing.Size(22, 20);
             this.WillBaseSavetextBox.TabIndex = 80;
+            this.WillBaseSavetextBox.Leave += new System.EventHandler(this.WillBaseSavetextBox_Leave);
             // 
             // FortitudeAbilityModTextBox
             // 
@@ -649,6 +656,7 @@
             this.FortitudeAbilityModTextBox.Name = "FortitudeAbilityModTextBox";
             this.FortitudeAbilityModTextBox.Size = new System.Drawing.Size(22, 20);
             this.FortitudeAbilityModTextBox.TabIndex = 81;
+            this.FortitudeAbilityModTextBox.Leave += new System.EventHandler(this.FortitudeBaseSavetextBox_Leave);
             // 
             // ReflexAbilityModTextBox
             // 
@@ -656,6 +664,7 @@
             this.ReflexAbilityModTextBox.Name = "ReflexAbilityModTextBox";
             this.ReflexAbilityModTextBox.Size = new System.Drawing.Size(22, 20);
             this.ReflexAbilityModTextBox.TabIndex = 82;
+            this.ReflexAbilityModTextBox.Leave += new System.EventHandler(this.ReflexBaseSavetextBox_Leave);
             // 
             // WillAbilityModTextBox
             // 
@@ -663,6 +672,7 @@
             this.WillAbilityModTextBox.Name = "WillAbilityModTextBox";
             this.WillAbilityModTextBox.Size = new System.Drawing.Size(22, 20);
             this.WillAbilityModTextBox.TabIndex = 83;
+            this.WillAbilityModTextBox.Leave += new System.EventHandler(this.WillBaseSavetextBox_Leave);
             // 
             // FortitudeMiscModTextBox
             // 
@@ -670,6 +680,7 @@
             this.FortitudeMiscModTextBox.Name = "FortitudeMiscModTextBox";
             this.FortitudeMiscModTextBox.Size = new System.Drawing.Size(22, 20);
             this.FortitudeMiscModTextBox.TabIndex = 84;
+            this.FortitudeMiscModTextBox.Leave += new System.EventHandler(this.FortitudeBaseSavetextBox_Leave);
             // 
             // ReflexMiscModTextBox
             // 
@@ -677,6 +688,7 @@
             this.ReflexMiscModTextBox.Name = "ReflexMiscModTextBox";
             this.ReflexMiscModTextBox.Size = new System.Drawing.Size(22, 20);
             this.ReflexMiscModTextBox.TabIndex = 85;
+            this.ReflexMiscModTextBox.Leave += new System.EventHandler(this.ReflexBaseSavetextBox_Leave);
             // 
             // WillMiscModTextBox
             // 
@@ -684,9 +696,11 @@
             this.WillMiscModTextBox.Name = "WillMiscModTextBox";
             this.WillMiscModTextBox.Size = new System.Drawing.Size(22, 20);
             this.WillMiscModTextBox.TabIndex = 86;
+            this.WillMiscModTextBox.Leave += new System.EventHandler(this.WillBaseSavetextBox_Leave);
             // 
             // MeleeTotalTextBox
             // 
+            this.MeleeTotalTextBox.Enabled = false;
             this.MeleeTotalTextBox.Location = new System.Drawing.Point(78, 567);
             this.MeleeTotalTextBox.Name = "MeleeTotalTextBox";
             this.MeleeTotalTextBox.Size = new System.Drawing.Size(22, 20);
@@ -694,6 +708,7 @@
             // 
             // RangeTotalTextBox
             // 
+            this.RangeTotalTextBox.Enabled = false;
             this.RangeTotalTextBox.Location = new System.Drawing.Point(80, 609);
             this.RangeTotalTextBox.Name = "RangeTotalTextBox";
             this.RangeTotalTextBox.Size = new System.Drawing.Size(22, 20);
@@ -706,12 +721,12 @@
             this.MeleeBaseTextBox.Size = new System.Drawing.Size(22, 20);
             this.MeleeBaseTextBox.TabIndex = 89;
             // 
-            // RangBaseTextBox
+            // RangeBaseTextBox
             // 
-            this.RangBaseTextBox.Location = new System.Drawing.Point(152, 609);
-            this.RangBaseTextBox.Name = "RangBaseTextBox";
-            this.RangBaseTextBox.Size = new System.Drawing.Size(22, 20);
-            this.RangBaseTextBox.TabIndex = 90;
+            this.RangeBaseTextBox.Location = new System.Drawing.Point(152, 609);
+            this.RangeBaseTextBox.Name = "RangeBaseTextBox";
+            this.RangeBaseTextBox.Size = new System.Drawing.Size(22, 20);
+            this.RangeBaseTextBox.TabIndex = 90;
             // 
             // MeleeStrModTextBox
             // 
@@ -741,12 +756,12 @@
             this.RangeSizeModtextBox.Size = new System.Drawing.Size(22, 20);
             this.RangeSizeModtextBox.TabIndex = 94;
             // 
-            // MelleeMiscModTextBox
+            // MeleeMiscModTextBox
             // 
-            this.MelleeMiscModTextBox.Location = new System.Drawing.Point(330, 567);
-            this.MelleeMiscModTextBox.Name = "MelleeMiscModTextBox";
-            this.MelleeMiscModTextBox.Size = new System.Drawing.Size(22, 20);
-            this.MelleeMiscModTextBox.TabIndex = 95;
+            this.MeleeMiscModTextBox.Location = new System.Drawing.Point(330, 567);
+            this.MeleeMiscModTextBox.Name = "MeleeMiscModTextBox";
+            this.MeleeMiscModTextBox.Size = new System.Drawing.Size(22, 20);
+            this.MeleeMiscModTextBox.TabIndex = 95;
             // 
             // RangeMiscModTextBox
             // 
@@ -757,6 +772,7 @@
             // 
             // DefenseTotalTextBox
             // 
+            this.DefenseTotalTextBox.Enabled = false;
             this.DefenseTotalTextBox.Location = new System.Drawing.Point(425, 212);
             this.DefenseTotalTextBox.Name = "DefenseTotalTextBox";
             this.DefenseTotalTextBox.Size = new System.Drawing.Size(26, 20);
@@ -768,13 +784,15 @@
             this.DefenseMiscModTextBox.Name = "DefenseMiscModTextBox";
             this.DefenseMiscModTextBox.Size = new System.Drawing.Size(26, 20);
             this.DefenseMiscModTextBox.TabIndex = 98;
+            this.DefenseMiscModTextBox.Leave += new System.EventHandler(this.DefenseModifier_Leave);
             // 
-            // SizeModTextBox
+            // DefenseSizeModTextBox
             // 
-            this.SizeModTextBox.Location = new System.Drawing.Point(590, 212);
-            this.SizeModTextBox.Name = "SizeModTextBox";
-            this.SizeModTextBox.Size = new System.Drawing.Size(26, 20);
-            this.SizeModTextBox.TabIndex = 99;
+            this.DefenseSizeModTextBox.Location = new System.Drawing.Point(590, 212);
+            this.DefenseSizeModTextBox.Name = "DefenseSizeModTextBox";
+            this.DefenseSizeModTextBox.Size = new System.Drawing.Size(26, 20);
+            this.DefenseSizeModTextBox.TabIndex = 99;
+            this.DefenseSizeModTextBox.Leave += new System.EventHandler(this.DefenseModifier_Leave);
             // 
             // DefenseDexModTextBox
             // 
@@ -782,6 +800,7 @@
             this.DefenseDexModTextBox.Name = "DefenseDexModTextBox";
             this.DefenseDexModTextBox.Size = new System.Drawing.Size(26, 20);
             this.DefenseDexModTextBox.TabIndex = 100;
+            this.DefenseDexModTextBox.Leave += new System.EventHandler(this.DefenseModifier_Leave);
             // 
             // DefenseClassBonusTextBox
             // 
@@ -789,6 +808,7 @@
             this.DefenseClassBonusTextBox.Name = "DefenseClassBonusTextBox";
             this.DefenseClassBonusTextBox.Size = new System.Drawing.Size(26, 20);
             this.DefenseClassBonusTextBox.TabIndex = 101;
+            this.DefenseClassBonusTextBox.Leave += new System.EventHandler(this.DefenseModifier_Leave);
             // 
             // ArmorCheckPenaltyTextBox
             // 
@@ -834,12 +854,12 @@
             this.DarkSidePointsTextBox.Size = new System.Drawing.Size(26, 20);
             this.DarkSidePointsTextBox.TabIndex = 106;
             // 
-            // D
+            // ForcePointsTextBox
             // 
-            this.D.Location = new System.Drawing.Point(565, 413);
-            this.D.Name = "D";
-            this.D.Size = new System.Drawing.Size(26, 20);
-            this.D.TabIndex = 107;
+            this.ForcePointsTextBox.Location = new System.Drawing.Point(565, 413);
+            this.ForcePointsTextBox.Name = "ForcePointsTextBox";
+            this.ForcePointsTextBox.Size = new System.Drawing.Size(26, 20);
+            this.ForcePointsTextBox.TabIndex = 107;
             // 
             // InitativeMiscModTextBox
             // 
@@ -847,6 +867,7 @@
             this.InitativeMiscModTextBox.Name = "InitativeMiscModTextBox";
             this.InitativeMiscModTextBox.Size = new System.Drawing.Size(26, 20);
             this.InitativeMiscModTextBox.TabIndex = 108;
+            this.InitativeMiscModTextBox.Leave += new System.EventHandler(this.InitiativeDexModTextBox_Leave);
             // 
             // InitiativeDexModTextBox
             // 
@@ -854,9 +875,11 @@
             this.InitiativeDexModTextBox.Name = "InitiativeDexModTextBox";
             this.InitiativeDexModTextBox.Size = new System.Drawing.Size(26, 20);
             this.InitiativeDexModTextBox.TabIndex = 109;
+            this.InitiativeDexModTextBox.Leave += new System.EventHandler(this.InitiativeDexModTextBox_Leave);
             // 
             // InitiativeTotalTextBox
             // 
+            this.InitiativeTotalTextBox.Enabled = false;
             this.InitiativeTotalTextBox.Location = new System.Drawing.Point(565, 332);
             this.InitiativeTotalTextBox.Name = "InitiativeTotalTextBox";
             this.InitiativeTotalTextBox.Size = new System.Drawing.Size(26, 20);
@@ -1222,11 +1245,22 @@
             this.pictureBox6.TabIndex = 119;
             this.pictureBox6.TabStop = false;
             // 
+            // btnsave
+            // 
+            this.btnsave.Location = new System.Drawing.Point(611, 19);
+            this.btnsave.Name = "btnsave";
+            this.btnsave.Size = new System.Drawing.Size(75, 23);
+            this.btnsave.TabIndex = 122;
+            this.btnsave.Text = "Save";
+            this.btnsave.UseVisualStyleBackColor = true;
+            this.btnsave.Click += new System.EventHandler(this.btnsave_Click);
+            // 
             // CharacterSheet
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
+            this.Controls.Add(this.btnsave);
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.SpeedTextBox);
             this.Controls.Add(this.BaseAttackTextBox);
@@ -1234,7 +1268,7 @@
             this.Controls.Add(this.InitiativeTotalTextBox);
             this.Controls.Add(this.InitiativeDexModTextBox);
             this.Controls.Add(this.InitativeMiscModTextBox);
-            this.Controls.Add(this.D);
+            this.Controls.Add(this.ForcePointsTextBox);
             this.Controls.Add(this.DarkSidePointsTextBox);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.label19);
@@ -1242,16 +1276,16 @@
             this.Controls.Add(this.ArmorCheckPenaltyTextBox);
             this.Controls.Add(this.DefenseClassBonusTextBox);
             this.Controls.Add(this.DefenseDexModTextBox);
-            this.Controls.Add(this.SizeModTextBox);
+            this.Controls.Add(this.DefenseSizeModTextBox);
             this.Controls.Add(this.DefenseMiscModTextBox);
             this.Controls.Add(this.DefenseTotalTextBox);
             this.Controls.Add(this.RangeMiscModTextBox);
-            this.Controls.Add(this.MelleeMiscModTextBox);
+            this.Controls.Add(this.MeleeMiscModTextBox);
             this.Controls.Add(this.RangeSizeModtextBox);
             this.Controls.Add(this.MeleeSizeModTextBox);
             this.Controls.Add(this.RangeDexModtextBox);
             this.Controls.Add(this.MeleeStrModTextBox);
-            this.Controls.Add(this.RangBaseTextBox);
+            this.Controls.Add(this.RangeBaseTextBox);
             this.Controls.Add(this.MeleeBaseTextBox);
             this.Controls.Add(this.RangeTotalTextBox);
             this.Controls.Add(this.MeleeTotalTextBox);
@@ -1452,16 +1486,16 @@
         private System.Windows.Forms.TextBox MeleeTotalTextBox;
         private System.Windows.Forms.TextBox RangeTotalTextBox;
         private System.Windows.Forms.TextBox MeleeBaseTextBox;
-        private System.Windows.Forms.TextBox RangBaseTextBox;
+        private System.Windows.Forms.TextBox RangeBaseTextBox;
         private System.Windows.Forms.TextBox MeleeStrModTextBox;
         private System.Windows.Forms.TextBox RangeDexModtextBox;
         private System.Windows.Forms.TextBox MeleeSizeModTextBox;
         private System.Windows.Forms.TextBox RangeSizeModtextBox;
-        private System.Windows.Forms.TextBox MelleeMiscModTextBox;
+        private System.Windows.Forms.TextBox MeleeMiscModTextBox;
         private System.Windows.Forms.TextBox RangeMiscModTextBox;
         private System.Windows.Forms.TextBox DefenseTotalTextBox;
         private System.Windows.Forms.TextBox DefenseMiscModTextBox;
-        private System.Windows.Forms.TextBox SizeModTextBox;
+        private System.Windows.Forms.TextBox DefenseSizeModTextBox;
         private System.Windows.Forms.TextBox DefenseDexModTextBox;
         private System.Windows.Forms.TextBox DefenseClassBonusTextBox;
         private System.Windows.Forms.TextBox ArmorCheckPenaltyTextBox;
@@ -1469,7 +1503,7 @@
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.TextBox DarkSidePointsTextBox;
-        private System.Windows.Forms.TextBox D;
+        private System.Windows.Forms.TextBox ForcePointsTextBox;
         private System.Windows.Forms.TextBox InitativeMiscModTextBox;
         private System.Windows.Forms.TextBox InitiativeDexModTextBox;
         private System.Windows.Forms.TextBox InitiativeTotalTextBox;
@@ -1483,6 +1517,7 @@
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.Button btnsave;
 
     }
 }
