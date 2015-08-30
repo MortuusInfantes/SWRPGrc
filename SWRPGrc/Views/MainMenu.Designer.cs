@@ -30,14 +30,13 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.PanelMain = new System.Windows.Forms.Panel();
+            this.BtnPlay = new System.Windows.Forms.Button();
+            this.BtnPlan = new System.Windows.Forms.Button();
+            this.BtnCamp = new System.Windows.Forms.Button();
+            this.BtnChar = new System.Windows.Forms.Button();
+            this.BtnSet = new System.Windows.Forms.Button();
+            this.BtnHome = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -58,88 +57,89 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "(Time)";
             // 
-            // panel1
+            // PanelMain
             // 
-            this.panel1.Location = new System.Drawing.Point(423, 154);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 220);
-            this.panel1.TabIndex = 2;
+            this.PanelMain.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.PanelMain.Location = new System.Drawing.Point(15, 107);
+            this.PanelMain.Name = "PanelMain";
+            this.PanelMain.Size = new System.Drawing.Size(760, 710);
+            this.PanelMain.TabIndex = 4;
             // 
-            // panel2
+            // BtnPlay
             // 
-            this.panel2.Location = new System.Drawing.Point(204, 154);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(200, 220);
-            this.panel2.TabIndex = 3;
+            this.BtnPlay.Location = new System.Drawing.Point(111, 78);
+            this.BtnPlay.Name = "BtnPlay";
+            this.BtnPlay.Size = new System.Drawing.Size(75, 23);
+            this.BtnPlay.TabIndex = 5;
+            this.BtnPlay.Text = "Play";
+            this.BtnPlay.UseVisualStyleBackColor = true;
+            this.BtnPlay.Click += new System.EventHandler(this.BtnPlay_Click);
             // 
-            // panel3
+            // BtnPlan
             // 
-            this.panel3.Location = new System.Drawing.Point(15, 154);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(172, 220);
-            this.panel3.TabIndex = 4;
+            this.BtnPlan.Location = new System.Drawing.Point(193, 78);
+            this.BtnPlan.Name = "BtnPlan";
+            this.BtnPlan.Size = new System.Drawing.Size(75, 23);
+            this.BtnPlan.TabIndex = 6;
+            this.BtnPlan.Text = "Plan";
+            this.BtnPlan.UseVisualStyleBackColor = true;
+            this.BtnPlan.Click += new System.EventHandler(this.BtnPlan_Click);
             // 
-            // button1
+            // BtnCamp
             // 
-            this.button1.Location = new System.Drawing.Point(15, 108);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "Play";
-            this.button1.UseVisualStyleBackColor = true;
+            this.BtnCamp.Location = new System.Drawing.Point(274, 78);
+            this.BtnCamp.Name = "BtnCamp";
+            this.BtnCamp.Size = new System.Drawing.Size(75, 23);
+            this.BtnCamp.TabIndex = 7;
+            this.BtnCamp.Text = "Campaigns";
+            this.BtnCamp.UseVisualStyleBackColor = true;
+            this.BtnCamp.Click += new System.EventHandler(this.BtnCamp_Click);
             // 
-            // button2
+            // BtnChar
             // 
-            this.button2.Location = new System.Drawing.Point(142, 108);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 6;
-            this.button2.Text = "Plan";
-            this.button2.UseVisualStyleBackColor = true;
+            this.BtnChar.Location = new System.Drawing.Point(404, 78);
+            this.BtnChar.Name = "BtnChar";
+            this.BtnChar.Size = new System.Drawing.Size(75, 23);
+            this.BtnChar.TabIndex = 8;
+            this.BtnChar.Text = "Characters";
+            this.BtnChar.UseVisualStyleBackColor = true;
+            this.BtnChar.Click += new System.EventHandler(this.BtnChar_Click);
             // 
-            // button3
+            // BtnSet
             // 
-            this.button3.Location = new System.Drawing.Point(274, 108);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 7;
-            this.button3.Text = "Campaigns";
-            this.button3.UseVisualStyleBackColor = true;
+            this.BtnSet.Location = new System.Drawing.Point(548, 78);
+            this.BtnSet.Name = "BtnSet";
+            this.BtnSet.Size = new System.Drawing.Size(75, 23);
+            this.BtnSet.TabIndex = 9;
+            this.BtnSet.Text = "Settings";
+            this.BtnSet.UseVisualStyleBackColor = true;
+            this.BtnSet.Click += new System.EventHandler(this.BtnSet_Click);
             // 
-            // button4
+            // BtnHome
             // 
-            this.button4.Location = new System.Drawing.Point(404, 108);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 8;
-            this.button4.Text = "Characters";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(548, 108);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 9;
-            this.button5.Text = "Settings";
-            this.button5.UseVisualStyleBackColor = true;
+            this.BtnHome.Location = new System.Drawing.Point(30, 78);
+            this.BtnHome.Name = "BtnHome";
+            this.BtnHome.Size = new System.Drawing.Size(75, 23);
+            this.BtnHome.TabIndex = 10;
+            this.BtnHome.Text = "Home";
+            this.BtnHome.UseVisualStyleBackColor = true;
+            this.BtnHome.Click += new System.EventHandler(this.BtnHome_Click);
             // 
             // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.panel3);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.BtnHome);
+            this.Controls.Add(this.BtnSet);
+            this.Controls.Add(this.BtnChar);
+            this.Controls.Add(this.BtnCamp);
+            this.Controls.Add(this.BtnPlan);
+            this.Controls.Add(this.BtnPlay);
+            this.Controls.Add(this.PanelMain);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "MainMenu";
-            this.Size = new System.Drawing.Size(642, 427);
+            this.Size = new System.Drawing.Size(806, 820);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -149,13 +149,12 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Panel PanelMain;
+        private System.Windows.Forms.Button BtnPlay;
+        private System.Windows.Forms.Button BtnPlan;
+        private System.Windows.Forms.Button BtnCamp;
+        private System.Windows.Forms.Button BtnChar;
+        private System.Windows.Forms.Button BtnSet;
+        private System.Windows.Forms.Button BtnHome;
     }
 }

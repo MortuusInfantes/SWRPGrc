@@ -165,8 +165,9 @@
             // CharacterNameLabel
             // 
             this.CharacterNameLabel.AutoSize = true;
+            this.CharacterNameLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(1)))));
             this.CharacterNameLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.CharacterNameLabel.Location = new System.Drawing.Point(22, 31);
+            this.CharacterNameLabel.Location = new System.Drawing.Point(22, 12);
             this.CharacterNameLabel.Name = "CharacterNameLabel";
             this.CharacterNameLabel.Size = new System.Drawing.Size(84, 13);
             this.CharacterNameLabel.TabIndex = 0;
@@ -176,7 +177,7 @@
             // 
             this.PlayerNameLabel.AutoSize = true;
             this.PlayerNameLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.PlayerNameLabel.Location = new System.Drawing.Point(223, 31);
+            this.PlayerNameLabel.Location = new System.Drawing.Point(223, 13);
             this.PlayerNameLabel.Name = "PlayerNameLabel";
             this.PlayerNameLabel.Size = new System.Drawing.Size(67, 13);
             this.PlayerNameLabel.TabIndex = 1;
@@ -186,7 +187,7 @@
             // 
             this.SpeciesLabel.AutoSize = true;
             this.SpeciesLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.SpeciesLabel.Location = new System.Drawing.Point(202, 63);
+            this.SpeciesLabel.Location = new System.Drawing.Point(245, 115);
             this.SpeciesLabel.Name = "SpeciesLabel";
             this.SpeciesLabel.Size = new System.Drawing.Size(45, 13);
             this.SpeciesLabel.TabIndex = 3;
@@ -196,7 +197,7 @@
             // 
             this.CharacterLevelLabel.AutoSize = true;
             this.CharacterLevelLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.CharacterLevelLabel.Location = new System.Drawing.Point(28, 70);
+            this.CharacterLevelLabel.Location = new System.Drawing.Point(22, 39);
             this.CharacterLevelLabel.Name = "CharacterLevelLabel";
             this.CharacterLevelLabel.Size = new System.Drawing.Size(82, 13);
             this.CharacterLevelLabel.TabIndex = 4;
@@ -206,7 +207,7 @@
             // 
             this.HeightLabel.AutoSize = true;
             this.HeightLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.HeightLabel.Location = new System.Drawing.Point(177, 101);
+            this.HeightLabel.Location = new System.Drawing.Point(180, 76);
             this.HeightLabel.Name = "HeightLabel";
             this.HeightLabel.Size = new System.Drawing.Size(38, 13);
             this.HeightLabel.TabIndex = 6;
@@ -216,7 +217,7 @@
             // 
             this.AgeLabel.AutoSize = true;
             this.AgeLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.AgeLabel.Location = new System.Drawing.Point(25, 105);
+            this.AgeLabel.Location = new System.Drawing.Point(25, 76);
             this.AgeLabel.Name = "AgeLabel";
             this.AgeLabel.Size = new System.Drawing.Size(26, 13);
             this.AgeLabel.TabIndex = 7;
@@ -226,7 +227,7 @@
             // 
             this.GenderLabel.AutoSize = true;
             this.GenderLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.GenderLabel.Location = new System.Drawing.Point(108, 101);
+            this.GenderLabel.Location = new System.Drawing.Point(102, 76);
             this.GenderLabel.Name = "GenderLabel";
             this.GenderLabel.Size = new System.Drawing.Size(42, 13);
             this.GenderLabel.TabIndex = 8;
@@ -235,9 +236,9 @@
             // panel1
             // 
             this.panel1.Controls.Add(this.label11);
-            this.panel1.Location = new System.Drawing.Point(356, 63);
+            this.panel1.Location = new System.Drawing.Point(131, 34);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(191, 64);
+            this.panel1.Size = new System.Drawing.Size(429, 37);
             this.panel1.TabIndex = 9;
             // 
             // label11
@@ -254,7 +255,7 @@
             // 
             this.WeightLabel.AutoSize = true;
             this.WeightLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.WeightLabel.Location = new System.Drawing.Point(249, 101);
+            this.WeightLabel.Location = new System.Drawing.Point(249, 76);
             this.WeightLabel.Name = "WeightLabel";
             this.WeightLabel.Size = new System.Drawing.Size(41, 13);
             this.WeightLabel.TabIndex = 10;
@@ -264,7 +265,7 @@
             // 
             this.EyeLabel.AutoSize = true;
             this.EyeLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.EyeLabel.Location = new System.Drawing.Point(28, 144);
+            this.EyeLabel.Location = new System.Drawing.Point(25, 115);
             this.EyeLabel.Name = "EyeLabel";
             this.EyeLabel.Size = new System.Drawing.Size(30, 13);
             this.EyeLabel.TabIndex = 11;
@@ -274,7 +275,7 @@
             // 
             this.HairLabel.AutoSize = true;
             this.HairLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.HairLabel.Location = new System.Drawing.Point(108, 145);
+            this.HairLabel.Location = new System.Drawing.Point(107, 115);
             this.HairLabel.Name = "HairLabel";
             this.HairLabel.Size = new System.Drawing.Size(26, 13);
             this.HairLabel.TabIndex = 12;
@@ -284,7 +285,7 @@
             // 
             this.SkinLabel.AutoSize = true;
             this.SkinLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.SkinLabel.Location = new System.Drawing.Point(180, 141);
+            this.SkinLabel.Location = new System.Drawing.Point(181, 115);
             this.SkinLabel.Name = "SkinLabel";
             this.SkinLabel.Size = new System.Drawing.Size(28, 13);
             this.SkinLabel.TabIndex = 13;
@@ -294,7 +295,7 @@
             // 
             this.WoundsLabel.AutoSize = true;
             this.WoundsLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.WoundsLabel.Location = new System.Drawing.Point(560, 150);
+            this.WoundsLabel.Location = new System.Drawing.Point(533, 104);
             this.WoundsLabel.Name = "WoundsLabel";
             this.WoundsLabel.Size = new System.Drawing.Size(47, 13);
             this.WoundsLabel.TabIndex = 15;
@@ -304,7 +305,7 @@
             // 
             this.CurrentVitalityLabel.AutoSize = true;
             this.CurrentVitalityLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.CurrentVitalityLabel.Location = new System.Drawing.Point(506, 135);
+            this.CurrentVitalityLabel.Location = new System.Drawing.Point(479, 89);
             this.CurrentVitalityLabel.Name = "CurrentVitalityLabel";
             this.CurrentVitalityLabel.Size = new System.Drawing.Size(41, 13);
             this.CurrentVitalityLabel.TabIndex = 16;
@@ -314,7 +315,7 @@
             // 
             this.TotalVitalityLabel.AutoSize = true;
             this.TotalVitalityLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.TotalVitalityLabel.Location = new System.Drawing.Point(469, 135);
+            this.TotalVitalityLabel.Location = new System.Drawing.Point(442, 89);
             this.TotalVitalityLabel.Name = "TotalVitalityLabel";
             this.TotalVitalityLabel.Size = new System.Drawing.Size(31, 13);
             this.TotalVitalityLabel.TabIndex = 17;
@@ -324,7 +325,7 @@
             // 
             this.DefenseLabel.AutoSize = true;
             this.DefenseLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.DefenseLabel.Location = new System.Drawing.Point(365, 212);
+            this.DefenseLabel.Location = new System.Drawing.Point(332, 145);
             this.DefenseLabel.Name = "DefenseLabel";
             this.DefenseLabel.Size = new System.Drawing.Size(47, 13);
             this.DefenseLabel.TabIndex = 20;
@@ -334,7 +335,7 @@
             // 
             this.label12.AutoSize = true;
             this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label12.Location = new System.Drawing.Point(573, 240);
+            this.label12.Location = new System.Drawing.Point(540, 173);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(51, 13);
             this.label12.TabIndex = 24;
@@ -344,7 +345,7 @@
             // 
             this.CurrentWoundsLabel.AutoSize = true;
             this.CurrentWoundsLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.CurrentWoundsLabel.Location = new System.Drawing.Point(648, 135);
+            this.CurrentWoundsLabel.Location = new System.Drawing.Point(621, 89);
             this.CurrentWoundsLabel.Name = "CurrentWoundsLabel";
             this.CurrentWoundsLabel.Size = new System.Drawing.Size(41, 13);
             this.CurrentWoundsLabel.TabIndex = 25;
@@ -354,7 +355,7 @@
             // 
             this.TotalWoundsLabel.AutoSize = true;
             this.TotalWoundsLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.TotalWoundsLabel.Location = new System.Drawing.Point(608, 135);
+            this.TotalWoundsLabel.Location = new System.Drawing.Point(581, 89);
             this.TotalWoundsLabel.Name = "TotalWoundsLabel";
             this.TotalWoundsLabel.Size = new System.Drawing.Size(31, 13);
             this.TotalWoundsLabel.TabIndex = 26;
@@ -364,7 +365,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label9.Location = new System.Drawing.Point(623, 240);
+            this.label9.Location = new System.Drawing.Point(590, 173);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(53, 13);
             this.label9.TabIndex = 21;
@@ -374,7 +375,7 @@
             // 
             this.VitalityLabel.AutoSize = true;
             this.VitalityLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.VitalityLabel.Location = new System.Drawing.Point(420, 150);
+            this.VitalityLabel.Location = new System.Drawing.Point(393, 104);
             this.VitalityLabel.Name = "VitalityLabel";
             this.VitalityLabel.Size = new System.Drawing.Size(37, 13);
             this.VitalityLabel.TabIndex = 28;
@@ -384,7 +385,7 @@
             // 
             this.CampaignLabel.AutoSize = true;
             this.CampaignLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.CampaignLabel.Location = new System.Drawing.Point(407, 30);
+            this.CampaignLabel.Location = new System.Drawing.Point(407, 12);
             this.CampaignLabel.Name = "CampaignLabel";
             this.CampaignLabel.Size = new System.Drawing.Size(54, 13);
             this.CampaignLabel.TabIndex = 31;
@@ -392,112 +393,112 @@
             // 
             // CharacterNameTextBox
             // 
-            this.CharacterNameTextBox.Location = new System.Drawing.Point(105, 25);
+            this.CharacterNameTextBox.Location = new System.Drawing.Point(105, 10);
             this.CharacterNameTextBox.Name = "CharacterNameTextBox";
             this.CharacterNameTextBox.Size = new System.Drawing.Size(100, 20);
             this.CharacterNameTextBox.TabIndex = 32;
             // 
             // PlayerNameTextBox
             // 
-            this.PlayerNameTextBox.Location = new System.Drawing.Point(291, 24);
+            this.PlayerNameTextBox.Location = new System.Drawing.Point(291, 9);
             this.PlayerNameTextBox.Name = "PlayerNameTextBox";
             this.PlayerNameTextBox.Size = new System.Drawing.Size(100, 20);
             this.PlayerNameTextBox.TabIndex = 33;
             // 
             // CampaignTextBox
             // 
-            this.CampaignTextBox.Location = new System.Drawing.Point(460, 23);
+            this.CampaignTextBox.Location = new System.Drawing.Point(460, 8);
             this.CampaignTextBox.Name = "CampaignTextBox";
             this.CampaignTextBox.Size = new System.Drawing.Size(100, 20);
             this.CampaignTextBox.TabIndex = 34;
             // 
             // CharacterLevelTextBox
             // 
-            this.CharacterLevelTextBox.Location = new System.Drawing.Point(31, 82);
+            this.CharacterLevelTextBox.Location = new System.Drawing.Point(25, 51);
             this.CharacterLevelTextBox.Name = "CharacterLevelTextBox";
             this.CharacterLevelTextBox.Size = new System.Drawing.Size(100, 20);
             this.CharacterLevelTextBox.TabIndex = 35;
             // 
             // SpeciesTextBox
             // 
-            this.SpeciesTextBox.Location = new System.Drawing.Point(205, 80);
+            this.SpeciesTextBox.Location = new System.Drawing.Point(226, 130);
             this.SpeciesTextBox.Name = "SpeciesTextBox";
             this.SpeciesTextBox.Size = new System.Drawing.Size(100, 20);
             this.SpeciesTextBox.TabIndex = 36;
             // 
             // AgeTextBox
             // 
-            this.AgeTextBox.Location = new System.Drawing.Point(25, 122);
+            this.AgeTextBox.Location = new System.Drawing.Point(25, 92);
             this.AgeTextBox.Name = "AgeTextBox";
             this.AgeTextBox.Size = new System.Drawing.Size(42, 20);
             this.AgeTextBox.TabIndex = 37;
             // 
             // GenderTextBox
             // 
-            this.GenderTextBox.Location = new System.Drawing.Point(105, 122);
+            this.GenderTextBox.Location = new System.Drawing.Point(105, 92);
             this.GenderTextBox.Name = "GenderTextBox";
             this.GenderTextBox.Size = new System.Drawing.Size(42, 20);
             this.GenderTextBox.TabIndex = 38;
             // 
             // HeightTextBox
             // 
-            this.HeightTextBox.Location = new System.Drawing.Point(173, 122);
+            this.HeightTextBox.Location = new System.Drawing.Point(176, 92);
             this.HeightTextBox.Name = "HeightTextBox";
             this.HeightTextBox.Size = new System.Drawing.Size(42, 20);
             this.HeightTextBox.TabIndex = 39;
             // 
             // WeightTextBox
             // 
-            this.WeightTextBox.Location = new System.Drawing.Point(248, 122);
+            this.WeightTextBox.Location = new System.Drawing.Point(249, 92);
             this.WeightTextBox.Name = "WeightTextBox";
             this.WeightTextBox.Size = new System.Drawing.Size(42, 20);
             this.WeightTextBox.TabIndex = 40;
             // 
             // HairTextBox
             // 
-            this.HairTextBox.Location = new System.Drawing.Point(105, 160);
+            this.HairTextBox.Location = new System.Drawing.Point(102, 131);
             this.HairTextBox.Name = "HairTextBox";
             this.HairTextBox.Size = new System.Drawing.Size(42, 20);
             this.HairTextBox.TabIndex = 41;
             // 
             // EyesTextBox
             // 
-            this.EyesTextBox.Location = new System.Drawing.Point(25, 160);
+            this.EyesTextBox.Location = new System.Drawing.Point(28, 135);
             this.EyesTextBox.Name = "EyesTextBox";
             this.EyesTextBox.Size = new System.Drawing.Size(42, 20);
             this.EyesTextBox.TabIndex = 42;
             // 
             // SkinTextBox
             // 
-            this.SkinTextBox.Location = new System.Drawing.Point(173, 161);
+            this.SkinTextBox.Location = new System.Drawing.Point(176, 130);
             this.SkinTextBox.Name = "SkinTextBox";
             this.SkinTextBox.Size = new System.Drawing.Size(42, 20);
             this.SkinTextBox.TabIndex = 43;
             // 
             // VitalityTotalTextBox
             // 
-            this.VitalityTotalTextBox.Location = new System.Drawing.Point(470, 150);
+            this.VitalityTotalTextBox.Location = new System.Drawing.Point(445, 104);
             this.VitalityTotalTextBox.Name = "VitalityTotalTextBox";
             this.VitalityTotalTextBox.Size = new System.Drawing.Size(25, 20);
             this.VitalityTotalTextBox.TabIndex = 44;
             // 
             // CurrentVitalityTextBox
             // 
-            this.CurrentVitalityTextBox.Location = new System.Drawing.Point(509, 151);
+            this.CurrentVitalityTextBox.Location = new System.Drawing.Point(482, 105);
             this.CurrentVitalityTextBox.Name = "CurrentVitalityTextBox";
             this.CurrentVitalityTextBox.Size = new System.Drawing.Size(25, 20);
             this.CurrentVitalityTextBox.TabIndex = 45;
             // 
             // CurrentWoundsTextBox
             // 
-            this.CurrentWoundsTextBox.Location = new System.Drawing.Point(654, 151);
+            this.CurrentWoundsTextBox.Location = new System.Drawing.Point(627, 105);
             this.CurrentWoundsTextBox.Name = "CurrentWoundsTextBox";
             this.CurrentWoundsTextBox.Size = new System.Drawing.Size(25, 20);
             this.CurrentWoundsTextBox.TabIndex = 46;
             // 
             // TotalWoundsTextBox
             // 
-            this.TotalWoundsTextBox.Location = new System.Drawing.Point(614, 151);
+            this.TotalWoundsTextBox.Location = new System.Drawing.Point(587, 105);
             this.TotalWoundsTextBox.Name = "TotalWoundsTextBox";
             this.TotalWoundsTextBox.Size = new System.Drawing.Size(25, 20);
             this.TotalWoundsTextBox.TabIndex = 47;
@@ -506,7 +507,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label3.Location = new System.Drawing.Point(672, 240);
+            this.label3.Location = new System.Drawing.Point(639, 173);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(105, 13);
             this.label3.TabIndex = 48;
@@ -516,7 +517,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label4.Location = new System.Drawing.Point(453, 240);
+            this.label4.Location = new System.Drawing.Point(420, 173);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(65, 13);
             this.label4.TabIndex = 49;
@@ -526,7 +527,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label5.Location = new System.Drawing.Point(680, 307);
+            this.label5.Location = new System.Drawing.Point(653, 230);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(59, 13);
             this.label5.TabIndex = 50;
@@ -536,7 +537,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label6.Location = new System.Drawing.Point(412, 307);
+            this.label6.Location = new System.Drawing.Point(385, 230);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(38, 13);
             this.label6.TabIndex = 51;
@@ -546,7 +547,7 @@
             // 
             this.Total.AutoSize = true;
             this.Total.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.Total.Location = new System.Drawing.Point(414, 240);
+            this.Total.Location = new System.Drawing.Point(381, 173);
             this.Total.Name = "Total";
             this.Total.Size = new System.Drawing.Size(31, 13);
             this.Total.TabIndex = 52;
@@ -556,7 +557,7 @@
             // 
             this.label14.AutoSize = true;
             this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label14.Location = new System.Drawing.Point(522, 240);
+            this.label14.Location = new System.Drawing.Point(489, 173);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(50, 13);
             this.label14.TabIndex = 53;
@@ -566,7 +567,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label8.Location = new System.Drawing.Point(500, 307);
+            this.label8.Location = new System.Drawing.Point(473, 230);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(65, 13);
             this.label8.TabIndex = 54;
@@ -576,7 +577,7 @@
             // 
             this.label16.AutoSize = true;
             this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label16.Location = new System.Drawing.Point(517, 335);
+            this.label16.Location = new System.Drawing.Point(490, 258);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(46, 13);
             this.label16.TabIndex = 55;
@@ -586,7 +587,7 @@
             // 
             this.label17.AutoSize = true;
             this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label17.Location = new System.Drawing.Point(560, 361);
+            this.label17.Location = new System.Drawing.Point(533, 284);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(31, 13);
             this.label17.TabIndex = 56;
@@ -596,7 +597,7 @@
             // 
             this.label18.AutoSize = true;
             this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label18.Location = new System.Drawing.Point(604, 361);
+            this.label18.Location = new System.Drawing.Point(577, 284);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(50, 13);
             this.label18.TabIndex = 57;
@@ -605,7 +606,7 @@
             // FortitudeTotalTextBox
             // 
             this.FortitudeTotalTextBox.Enabled = false;
-            this.FortitudeTotalTextBox.Location = new System.Drawing.Point(111, 448);
+            this.FortitudeTotalTextBox.Location = new System.Drawing.Point(111, 352);
             this.FortitudeTotalTextBox.Name = "FortitudeTotalTextBox";
             this.FortitudeTotalTextBox.Size = new System.Drawing.Size(22, 20);
             this.FortitudeTotalTextBox.TabIndex = 75;
@@ -613,7 +614,7 @@
             // ReflexTotalTextBox
             // 
             this.ReflexTotalTextBox.Enabled = false;
-            this.ReflexTotalTextBox.Location = new System.Drawing.Point(111, 472);
+            this.ReflexTotalTextBox.Location = new System.Drawing.Point(111, 376);
             this.ReflexTotalTextBox.Name = "ReflexTotalTextBox";
             this.ReflexTotalTextBox.Size = new System.Drawing.Size(22, 20);
             this.ReflexTotalTextBox.TabIndex = 76;
@@ -621,14 +622,14 @@
             // WillTotalTextBox
             // 
             this.WillTotalTextBox.Enabled = false;
-            this.WillTotalTextBox.Location = new System.Drawing.Point(111, 498);
+            this.WillTotalTextBox.Location = new System.Drawing.Point(111, 402);
             this.WillTotalTextBox.Name = "WillTotalTextBox";
             this.WillTotalTextBox.Size = new System.Drawing.Size(22, 20);
             this.WillTotalTextBox.TabIndex = 77;
             // 
             // FortitudeBaseSavetextBox
             // 
-            this.FortitudeBaseSavetextBox.Location = new System.Drawing.Point(183, 450);
+            this.FortitudeBaseSavetextBox.Location = new System.Drawing.Point(183, 354);
             this.FortitudeBaseSavetextBox.Name = "FortitudeBaseSavetextBox";
             this.FortitudeBaseSavetextBox.Size = new System.Drawing.Size(22, 20);
             this.FortitudeBaseSavetextBox.TabIndex = 78;
@@ -636,7 +637,7 @@
             // 
             // ReflexBaseSavetextBox
             // 
-            this.ReflexBaseSavetextBox.Location = new System.Drawing.Point(183, 472);
+            this.ReflexBaseSavetextBox.Location = new System.Drawing.Point(183, 376);
             this.ReflexBaseSavetextBox.Name = "ReflexBaseSavetextBox";
             this.ReflexBaseSavetextBox.Size = new System.Drawing.Size(22, 20);
             this.ReflexBaseSavetextBox.TabIndex = 79;
@@ -644,7 +645,7 @@
             // 
             // WillBaseSavetextBox
             // 
-            this.WillBaseSavetextBox.Location = new System.Drawing.Point(183, 498);
+            this.WillBaseSavetextBox.Location = new System.Drawing.Point(183, 402);
             this.WillBaseSavetextBox.Name = "WillBaseSavetextBox";
             this.WillBaseSavetextBox.Size = new System.Drawing.Size(22, 20);
             this.WillBaseSavetextBox.TabIndex = 80;
@@ -652,7 +653,7 @@
             // 
             // FortitudeAbilityModTextBox
             // 
-            this.FortitudeAbilityModTextBox.Location = new System.Drawing.Point(269, 450);
+            this.FortitudeAbilityModTextBox.Location = new System.Drawing.Point(269, 354);
             this.FortitudeAbilityModTextBox.Name = "FortitudeAbilityModTextBox";
             this.FortitudeAbilityModTextBox.Size = new System.Drawing.Size(22, 20);
             this.FortitudeAbilityModTextBox.TabIndex = 81;
@@ -660,7 +661,7 @@
             // 
             // ReflexAbilityModTextBox
             // 
-            this.ReflexAbilityModTextBox.Location = new System.Drawing.Point(269, 472);
+            this.ReflexAbilityModTextBox.Location = new System.Drawing.Point(269, 376);
             this.ReflexAbilityModTextBox.Name = "ReflexAbilityModTextBox";
             this.ReflexAbilityModTextBox.Size = new System.Drawing.Size(22, 20);
             this.ReflexAbilityModTextBox.TabIndex = 82;
@@ -668,7 +669,7 @@
             // 
             // WillAbilityModTextBox
             // 
-            this.WillAbilityModTextBox.Location = new System.Drawing.Point(269, 498);
+            this.WillAbilityModTextBox.Location = new System.Drawing.Point(269, 402);
             this.WillAbilityModTextBox.Name = "WillAbilityModTextBox";
             this.WillAbilityModTextBox.Size = new System.Drawing.Size(22, 20);
             this.WillAbilityModTextBox.TabIndex = 83;
@@ -676,7 +677,7 @@
             // 
             // FortitudeMiscModTextBox
             // 
-            this.FortitudeMiscModTextBox.Location = new System.Drawing.Point(330, 450);
+            this.FortitudeMiscModTextBox.Location = new System.Drawing.Point(330, 354);
             this.FortitudeMiscModTextBox.Name = "FortitudeMiscModTextBox";
             this.FortitudeMiscModTextBox.Size = new System.Drawing.Size(22, 20);
             this.FortitudeMiscModTextBox.TabIndex = 84;
@@ -684,7 +685,7 @@
             // 
             // ReflexMiscModTextBox
             // 
-            this.ReflexMiscModTextBox.Location = new System.Drawing.Point(330, 472);
+            this.ReflexMiscModTextBox.Location = new System.Drawing.Point(330, 376);
             this.ReflexMiscModTextBox.Name = "ReflexMiscModTextBox";
             this.ReflexMiscModTextBox.Size = new System.Drawing.Size(22, 20);
             this.ReflexMiscModTextBox.TabIndex = 85;
@@ -692,7 +693,7 @@
             // 
             // WillMiscModTextBox
             // 
-            this.WillMiscModTextBox.Location = new System.Drawing.Point(330, 498);
+            this.WillMiscModTextBox.Location = new System.Drawing.Point(330, 402);
             this.WillMiscModTextBox.Name = "WillMiscModTextBox";
             this.WillMiscModTextBox.Size = new System.Drawing.Size(22, 20);
             this.WillMiscModTextBox.TabIndex = 86;
@@ -701,7 +702,7 @@
             // MeleeTotalTextBox
             // 
             this.MeleeTotalTextBox.Enabled = false;
-            this.MeleeTotalTextBox.Location = new System.Drawing.Point(78, 567);
+            this.MeleeTotalTextBox.Location = new System.Drawing.Point(78, 466);
             this.MeleeTotalTextBox.Name = "MeleeTotalTextBox";
             this.MeleeTotalTextBox.Size = new System.Drawing.Size(22, 20);
             this.MeleeTotalTextBox.TabIndex = 87;
@@ -709,63 +710,63 @@
             // RangeTotalTextBox
             // 
             this.RangeTotalTextBox.Enabled = false;
-            this.RangeTotalTextBox.Location = new System.Drawing.Point(80, 609);
+            this.RangeTotalTextBox.Location = new System.Drawing.Point(80, 508);
             this.RangeTotalTextBox.Name = "RangeTotalTextBox";
             this.RangeTotalTextBox.Size = new System.Drawing.Size(22, 20);
             this.RangeTotalTextBox.TabIndex = 88;
             // 
             // MeleeBaseTextBox
             // 
-            this.MeleeBaseTextBox.Location = new System.Drawing.Point(152, 567);
+            this.MeleeBaseTextBox.Location = new System.Drawing.Point(152, 466);
             this.MeleeBaseTextBox.Name = "MeleeBaseTextBox";
             this.MeleeBaseTextBox.Size = new System.Drawing.Size(22, 20);
             this.MeleeBaseTextBox.TabIndex = 89;
             // 
             // RangeBaseTextBox
             // 
-            this.RangeBaseTextBox.Location = new System.Drawing.Point(152, 609);
+            this.RangeBaseTextBox.Location = new System.Drawing.Point(152, 508);
             this.RangeBaseTextBox.Name = "RangeBaseTextBox";
             this.RangeBaseTextBox.Size = new System.Drawing.Size(22, 20);
             this.RangeBaseTextBox.TabIndex = 90;
             // 
             // MeleeStrModTextBox
             // 
-            this.MeleeStrModTextBox.Location = new System.Drawing.Point(211, 567);
+            this.MeleeStrModTextBox.Location = new System.Drawing.Point(211, 466);
             this.MeleeStrModTextBox.Name = "MeleeStrModTextBox";
             this.MeleeStrModTextBox.Size = new System.Drawing.Size(22, 20);
             this.MeleeStrModTextBox.TabIndex = 91;
             // 
             // RangeDexModtextBox
             // 
-            this.RangeDexModtextBox.Location = new System.Drawing.Point(211, 609);
+            this.RangeDexModtextBox.Location = new System.Drawing.Point(211, 508);
             this.RangeDexModtextBox.Name = "RangeDexModtextBox";
             this.RangeDexModtextBox.Size = new System.Drawing.Size(22, 20);
             this.RangeDexModtextBox.TabIndex = 92;
             // 
             // MeleeSizeModTextBox
             // 
-            this.MeleeSizeModTextBox.Location = new System.Drawing.Point(283, 567);
+            this.MeleeSizeModTextBox.Location = new System.Drawing.Point(283, 466);
             this.MeleeSizeModTextBox.Name = "MeleeSizeModTextBox";
             this.MeleeSizeModTextBox.Size = new System.Drawing.Size(22, 20);
             this.MeleeSizeModTextBox.TabIndex = 93;
             // 
             // RangeSizeModtextBox
             // 
-            this.RangeSizeModtextBox.Location = new System.Drawing.Point(283, 609);
+            this.RangeSizeModtextBox.Location = new System.Drawing.Point(283, 508);
             this.RangeSizeModtextBox.Name = "RangeSizeModtextBox";
             this.RangeSizeModtextBox.Size = new System.Drawing.Size(22, 20);
             this.RangeSizeModtextBox.TabIndex = 94;
             // 
             // MeleeMiscModTextBox
             // 
-            this.MeleeMiscModTextBox.Location = new System.Drawing.Point(330, 567);
+            this.MeleeMiscModTextBox.Location = new System.Drawing.Point(330, 466);
             this.MeleeMiscModTextBox.Name = "MeleeMiscModTextBox";
             this.MeleeMiscModTextBox.Size = new System.Drawing.Size(22, 20);
             this.MeleeMiscModTextBox.TabIndex = 95;
             // 
             // RangeMiscModTextBox
             // 
-            this.RangeMiscModTextBox.Location = new System.Drawing.Point(330, 609);
+            this.RangeMiscModTextBox.Location = new System.Drawing.Point(330, 508);
             this.RangeMiscModTextBox.Name = "RangeMiscModTextBox";
             this.RangeMiscModTextBox.Size = new System.Drawing.Size(22, 20);
             this.RangeMiscModTextBox.TabIndex = 96;
@@ -773,14 +774,14 @@
             // DefenseTotalTextBox
             // 
             this.DefenseTotalTextBox.Enabled = false;
-            this.DefenseTotalTextBox.Location = new System.Drawing.Point(425, 212);
+            this.DefenseTotalTextBox.Location = new System.Drawing.Point(392, 145);
             this.DefenseTotalTextBox.Name = "DefenseTotalTextBox";
             this.DefenseTotalTextBox.Size = new System.Drawing.Size(26, 20);
             this.DefenseTotalTextBox.TabIndex = 97;
             // 
             // DefenseMiscModTextBox
             // 
-            this.DefenseMiscModTextBox.Location = new System.Drawing.Point(638, 212);
+            this.DefenseMiscModTextBox.Location = new System.Drawing.Point(605, 145);
             this.DefenseMiscModTextBox.Name = "DefenseMiscModTextBox";
             this.DefenseMiscModTextBox.Size = new System.Drawing.Size(26, 20);
             this.DefenseMiscModTextBox.TabIndex = 98;
@@ -788,7 +789,7 @@
             // 
             // DefenseSizeModTextBox
             // 
-            this.DefenseSizeModTextBox.Location = new System.Drawing.Point(590, 212);
+            this.DefenseSizeModTextBox.Location = new System.Drawing.Point(557, 145);
             this.DefenseSizeModTextBox.Name = "DefenseSizeModTextBox";
             this.DefenseSizeModTextBox.Size = new System.Drawing.Size(26, 20);
             this.DefenseSizeModTextBox.TabIndex = 99;
@@ -796,7 +797,7 @@
             // 
             // DefenseDexModTextBox
             // 
-            this.DefenseDexModTextBox.Location = new System.Drawing.Point(520, 212);
+            this.DefenseDexModTextBox.Location = new System.Drawing.Point(487, 145);
             this.DefenseDexModTextBox.Name = "DefenseDexModTextBox";
             this.DefenseDexModTextBox.Size = new System.Drawing.Size(26, 20);
             this.DefenseDexModTextBox.TabIndex = 100;
@@ -804,7 +805,7 @@
             // 
             // DefenseClassBonusTextBox
             // 
-            this.DefenseClassBonusTextBox.Location = new System.Drawing.Point(464, 212);
+            this.DefenseClassBonusTextBox.Location = new System.Drawing.Point(431, 145);
             this.DefenseClassBonusTextBox.Name = "DefenseClassBonusTextBox";
             this.DefenseClassBonusTextBox.Size = new System.Drawing.Size(26, 20);
             this.DefenseClassBonusTextBox.TabIndex = 101;
@@ -812,7 +813,7 @@
             // 
             // ArmorCheckPenaltyTextBox
             // 
-            this.ArmorCheckPenaltyTextBox.Location = new System.Drawing.Point(693, 212);
+            this.ArmorCheckPenaltyTextBox.Location = new System.Drawing.Point(660, 145);
             this.ArmorCheckPenaltyTextBox.Name = "ArmorCheckPenaltyTextBox";
             this.ArmorCheckPenaltyTextBox.Size = new System.Drawing.Size(26, 20);
             this.ArmorCheckPenaltyTextBox.TabIndex = 102;
@@ -821,7 +822,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label13.Location = new System.Drawing.Point(662, 361);
+            this.label13.Location = new System.Drawing.Point(635, 284);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(53, 13);
             this.label13.TabIndex = 103;
@@ -831,7 +832,7 @@
             // 
             this.label19.AutoSize = true;
             this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label19.Location = new System.Drawing.Point(636, 436);
+            this.label19.Location = new System.Drawing.Point(585, 344);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(86, 13);
             this.label19.TabIndex = 104;
@@ -841,7 +842,7 @@
             // 
             this.label20.AutoSize = true;
             this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label20.Location = new System.Drawing.Point(550, 436);
+            this.label20.Location = new System.Drawing.Point(499, 344);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(66, 13);
             this.label20.TabIndex = 105;
@@ -849,21 +850,21 @@
             // 
             // DarkSidePointsTextBox
             // 
-            this.DarkSidePointsTextBox.Location = new System.Drawing.Point(663, 413);
+            this.DarkSidePointsTextBox.Location = new System.Drawing.Point(612, 321);
             this.DarkSidePointsTextBox.Name = "DarkSidePointsTextBox";
             this.DarkSidePointsTextBox.Size = new System.Drawing.Size(26, 20);
             this.DarkSidePointsTextBox.TabIndex = 106;
             // 
             // ForcePointsTextBox
             // 
-            this.ForcePointsTextBox.Location = new System.Drawing.Point(565, 413);
+            this.ForcePointsTextBox.Location = new System.Drawing.Point(514, 321);
             this.ForcePointsTextBox.Name = "ForcePointsTextBox";
             this.ForcePointsTextBox.Size = new System.Drawing.Size(26, 20);
             this.ForcePointsTextBox.TabIndex = 107;
             // 
             // InitativeMiscModTextBox
             // 
-            this.InitativeMiscModTextBox.Location = new System.Drawing.Point(663, 332);
+            this.InitativeMiscModTextBox.Location = new System.Drawing.Point(636, 255);
             this.InitativeMiscModTextBox.Name = "InitativeMiscModTextBox";
             this.InitativeMiscModTextBox.Size = new System.Drawing.Size(26, 20);
             this.InitativeMiscModTextBox.TabIndex = 108;
@@ -871,7 +872,7 @@
             // 
             // InitiativeDexModTextBox
             // 
-            this.InitiativeDexModTextBox.Location = new System.Drawing.Point(614, 332);
+            this.InitiativeDexModTextBox.Location = new System.Drawing.Point(587, 255);
             this.InitiativeDexModTextBox.Name = "InitiativeDexModTextBox";
             this.InitiativeDexModTextBox.Size = new System.Drawing.Size(26, 20);
             this.InitiativeDexModTextBox.TabIndex = 109;
@@ -880,28 +881,28 @@
             // InitiativeTotalTextBox
             // 
             this.InitiativeTotalTextBox.Enabled = false;
-            this.InitiativeTotalTextBox.Location = new System.Drawing.Point(565, 332);
+            this.InitiativeTotalTextBox.Location = new System.Drawing.Point(538, 255);
             this.InitiativeTotalTextBox.Name = "InitiativeTotalTextBox";
             this.InitiativeTotalTextBox.Size = new System.Drawing.Size(26, 20);
             this.InitiativeTotalTextBox.TabIndex = 110;
             // 
             // ReputationTextBox
             // 
-            this.ReputationTextBox.Location = new System.Drawing.Point(738, 304);
+            this.ReputationTextBox.Location = new System.Drawing.Point(711, 227);
             this.ReputationTextBox.Name = "ReputationTextBox";
             this.ReputationTextBox.Size = new System.Drawing.Size(26, 20);
             this.ReputationTextBox.TabIndex = 111;
             // 
             // BaseAttackTextBox
             // 
-            this.BaseAttackTextBox.Location = new System.Drawing.Point(565, 300);
+            this.BaseAttackTextBox.Location = new System.Drawing.Point(538, 223);
             this.BaseAttackTextBox.Name = "BaseAttackTextBox";
             this.BaseAttackTextBox.Size = new System.Drawing.Size(26, 20);
             this.BaseAttackTextBox.TabIndex = 112;
             // 
             // SpeedTextBox
             // 
-            this.SpeedTextBox.Location = new System.Drawing.Point(456, 307);
+            this.SpeedTextBox.Location = new System.Drawing.Point(429, 230);
             this.SpeedTextBox.Name = "SpeedTextBox";
             this.SpeedTextBox.Size = new System.Drawing.Size(26, 20);
             this.SpeedTextBox.TabIndex = 113;
@@ -909,7 +910,7 @@
             // pictureBox8
             // 
             this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(404, 682);
+            this.pictureBox8.Location = new System.Drawing.Point(375, 578);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(41, 61);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -922,7 +923,7 @@
             this.AttackDexModLabel.BackColor = System.Drawing.Color.Transparent;
             this.AttackDexModLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.AttackDexModLabel.Image = ((System.Drawing.Image)(resources.GetObject("AttackDexModLabel.Image")));
-            this.AttackDexModLabel.Location = new System.Drawing.Point(208, 593);
+            this.AttackDexModLabel.Location = new System.Drawing.Point(208, 492);
             this.AttackDexModLabel.Name = "AttackDexModLabel";
             this.AttackDexModLabel.Size = new System.Drawing.Size(50, 13);
             this.AttackDexModLabel.TabIndex = 74;
@@ -934,7 +935,7 @@
             this.SavingThrowMiscModLabel.BackColor = System.Drawing.Color.Transparent;
             this.SavingThrowMiscModLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.SavingThrowMiscModLabel.Image = ((System.Drawing.Image)(resources.GetObject("SavingThrowMiscModLabel.Image")));
-            this.SavingThrowMiscModLabel.Location = new System.Drawing.Point(313, 434);
+            this.SavingThrowMiscModLabel.Location = new System.Drawing.Point(313, 338);
             this.SavingThrowMiscModLabel.Name = "SavingThrowMiscModLabel";
             this.SavingThrowMiscModLabel.Size = new System.Drawing.Size(53, 13);
             this.SavingThrowMiscModLabel.TabIndex = 73;
@@ -946,7 +947,7 @@
             this.AttackMiscModLabel.BackColor = System.Drawing.Color.Transparent;
             this.AttackMiscModLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.AttackMiscModLabel.Image = ((System.Drawing.Image)(resources.GetObject("AttackMiscModLabel.Image")));
-            this.AttackMiscModLabel.Location = new System.Drawing.Point(313, 551);
+            this.AttackMiscModLabel.Location = new System.Drawing.Point(313, 450);
             this.AttackMiscModLabel.Name = "AttackMiscModLabel";
             this.AttackMiscModLabel.Size = new System.Drawing.Size(53, 13);
             this.AttackMiscModLabel.TabIndex = 72;
@@ -958,7 +959,7 @@
             this.AttackSizeModLabel.BackColor = System.Drawing.Color.Transparent;
             this.AttackSizeModLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.AttackSizeModLabel.Image = ((System.Drawing.Image)(resources.GetObject("AttackSizeModLabel.Image")));
-            this.AttackSizeModLabel.Location = new System.Drawing.Point(266, 551);
+            this.AttackSizeModLabel.Location = new System.Drawing.Point(266, 450);
             this.AttackSizeModLabel.Name = "AttackSizeModLabel";
             this.AttackSizeModLabel.Size = new System.Drawing.Size(48, 13);
             this.AttackSizeModLabel.TabIndex = 71;
@@ -970,7 +971,7 @@
             this.AttackStrModLabel.BackColor = System.Drawing.Color.Transparent;
             this.AttackStrModLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.AttackStrModLabel.Image = ((System.Drawing.Image)(resources.GetObject("AttackStrModLabel.Image")));
-            this.AttackStrModLabel.Location = new System.Drawing.Point(205, 551);
+            this.AttackStrModLabel.Location = new System.Drawing.Point(205, 450);
             this.AttackStrModLabel.Name = "AttackStrModLabel";
             this.AttackStrModLabel.Size = new System.Drawing.Size(44, 13);
             this.AttackStrModLabel.TabIndex = 70;
@@ -981,7 +982,7 @@
             this.AttackBaseLabel.AutoSize = true;
             this.AttackBaseLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.AttackBaseLabel.Image = ((System.Drawing.Image)(resources.GetObject("AttackBaseLabel.Image")));
-            this.AttackBaseLabel.Location = new System.Drawing.Point(149, 551);
+            this.AttackBaseLabel.Location = new System.Drawing.Point(149, 450);
             this.AttackBaseLabel.Name = "AttackBaseLabel";
             this.AttackBaseLabel.Size = new System.Drawing.Size(31, 13);
             this.AttackBaseLabel.TabIndex = 69;
@@ -993,7 +994,7 @@
             this.AttackTotalLabel.BackColor = System.Drawing.Color.Transparent;
             this.AttackTotalLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.AttackTotalLabel.Image = ((System.Drawing.Image)(resources.GetObject("AttackTotalLabel.Image")));
-            this.AttackTotalLabel.Location = new System.Drawing.Point(69, 551);
+            this.AttackTotalLabel.Location = new System.Drawing.Point(69, 450);
             this.AttackTotalLabel.Name = "AttackTotalLabel";
             this.AttackTotalLabel.Size = new System.Drawing.Size(31, 13);
             this.AttackTotalLabel.TabIndex = 68;
@@ -1005,7 +1006,7 @@
             this.SavingThrowAbilityModLabel.BackColor = System.Drawing.Color.Transparent;
             this.SavingThrowAbilityModLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.SavingThrowAbilityModLabel.Image = global::SWRPGrc.Properties.Resources.rect3414;
-            this.SavingThrowAbilityModLabel.Location = new System.Drawing.Point(249, 434);
+            this.SavingThrowAbilityModLabel.Location = new System.Drawing.Point(249, 338);
             this.SavingThrowAbilityModLabel.Name = "SavingThrowAbilityModLabel";
             this.SavingThrowAbilityModLabel.Size = new System.Drawing.Size(58, 13);
             this.SavingThrowAbilityModLabel.TabIndex = 66;
@@ -1017,7 +1018,7 @@
             this.SavingThrowsBaseSaveLabel.BackColor = System.Drawing.Color.Transparent;
             this.SavingThrowsBaseSaveLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.SavingThrowsBaseSaveLabel.Image = ((System.Drawing.Image)(resources.GetObject("SavingThrowsBaseSaveLabel.Image")));
-            this.SavingThrowsBaseSaveLabel.Location = new System.Drawing.Point(173, 434);
+            this.SavingThrowsBaseSaveLabel.Location = new System.Drawing.Point(173, 338);
             this.SavingThrowsBaseSaveLabel.Name = "SavingThrowsBaseSaveLabel";
             this.SavingThrowsBaseSaveLabel.Size = new System.Drawing.Size(59, 13);
             this.SavingThrowsBaseSaveLabel.TabIndex = 65;
@@ -1029,7 +1030,7 @@
             this.SavingThrowsTotalLabel.BackColor = System.Drawing.Color.Transparent;
             this.SavingThrowsTotalLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.SavingThrowsTotalLabel.Image = ((System.Drawing.Image)(resources.GetObject("SavingThrowsTotalLabel.Image")));
-            this.SavingThrowsTotalLabel.Location = new System.Drawing.Point(108, 435);
+            this.SavingThrowsTotalLabel.Location = new System.Drawing.Point(108, 339);
             this.SavingThrowsTotalLabel.Name = "SavingThrowsTotalLabel";
             this.SavingThrowsTotalLabel.Size = new System.Drawing.Size(31, 13);
             this.SavingThrowsTotalLabel.TabIndex = 64;
@@ -1041,7 +1042,7 @@
             this.SavingThrowsLabel.BackColor = System.Drawing.Color.Transparent;
             this.SavingThrowsLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.SavingThrowsLabel.Image = ((System.Drawing.Image)(resources.GetObject("SavingThrowsLabel.Image")));
-            this.SavingThrowsLabel.Location = new System.Drawing.Point(25, 435);
+            this.SavingThrowsLabel.Location = new System.Drawing.Point(25, 339);
             this.SavingThrowsLabel.Name = "SavingThrowsLabel";
             this.SavingThrowsLabel.Size = new System.Drawing.Size(78, 13);
             this.SavingThrowsLabel.TabIndex = 63;
@@ -1053,7 +1054,7 @@
             this.RangeLabel.BackColor = System.Drawing.Color.Transparent;
             this.RangeLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.RangeLabel.Image = ((System.Drawing.Image)(resources.GetObject("RangeLabel.Image")));
-            this.RangeLabel.Location = new System.Drawing.Point(28, 612);
+            this.RangeLabel.Location = new System.Drawing.Point(28, 511);
             this.RangeLabel.Name = "RangeLabel";
             this.RangeLabel.Size = new System.Drawing.Size(39, 13);
             this.RangeLabel.TabIndex = 62;
@@ -1065,7 +1066,7 @@
             this.MeleeLabel.BackColor = System.Drawing.Color.Transparent;
             this.MeleeLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.MeleeLabel.Image = ((System.Drawing.Image)(resources.GetObject("MeleeLabel.Image")));
-            this.MeleeLabel.Location = new System.Drawing.Point(26, 577);
+            this.MeleeLabel.Location = new System.Drawing.Point(26, 476);
             this.MeleeLabel.Name = "MeleeLabel";
             this.MeleeLabel.Size = new System.Drawing.Size(36, 13);
             this.MeleeLabel.TabIndex = 61;
@@ -1077,7 +1078,7 @@
             this.WillLabel.BackColor = System.Drawing.Color.Transparent;
             this.WillLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.WillLabel.Image = ((System.Drawing.Image)(resources.GetObject("WillLabel.Image")));
-            this.WillLabel.Location = new System.Drawing.Point(65, 498);
+            this.WillLabel.Location = new System.Drawing.Point(65, 402);
             this.WillLabel.Name = "WillLabel";
             this.WillLabel.Size = new System.Drawing.Size(24, 13);
             this.WillLabel.TabIndex = 60;
@@ -1089,7 +1090,7 @@
             this.ReflexLabel.BackColor = System.Drawing.Color.Transparent;
             this.ReflexLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.ReflexLabel.Image = ((System.Drawing.Image)(resources.GetObject("ReflexLabel.Image")));
-            this.ReflexLabel.Location = new System.Drawing.Point(65, 475);
+            this.ReflexLabel.Location = new System.Drawing.Point(65, 379);
             this.ReflexLabel.Name = "ReflexLabel";
             this.ReflexLabel.Size = new System.Drawing.Size(37, 13);
             this.ReflexLabel.TabIndex = 59;
@@ -1101,7 +1102,7 @@
             this.FortitudeLabel.BackColor = System.Drawing.Color.Transparent;
             this.FortitudeLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.FortitudeLabel.Image = ((System.Drawing.Image)(resources.GetObject("FortitudeLabel.Image")));
-            this.FortitudeLabel.Location = new System.Drawing.Point(63, 453);
+            this.FortitudeLabel.Location = new System.Drawing.Point(63, 357);
             this.FortitudeLabel.Name = "FortitudeLabel";
             this.FortitudeLabel.Size = new System.Drawing.Size(48, 13);
             this.FortitudeLabel.TabIndex = 58;
@@ -1111,9 +1112,9 @@
             // 
             this.panel4.BackgroundImage = global::SWRPGrc.Properties.Resources.rect3414;
             this.panel4.Controls.Add(this.label2);
-            this.panel4.Location = new System.Drawing.Point(25, 667);
+            this.panel4.Location = new System.Drawing.Point(16, 552);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(313, 115);
+            this.panel4.Size = new System.Drawing.Size(313, 87);
             this.panel4.TabIndex = 30;
             // 
             // label2
@@ -1130,7 +1131,7 @@
             // 
             this.panel3.BackgroundImage = global::SWRPGrc.Properties.Resources.rect3414;
             this.panel3.Controls.Add(this.label10);
-            this.panel3.Location = new System.Drawing.Point(463, 508);
+            this.panel3.Location = new System.Drawing.Point(436, 380);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(289, 259);
             this.panel3.TabIndex = 29;
@@ -1151,9 +1152,9 @@
             this.panel2.Controls.Add(this.label15);
             this.panel2.Controls.Add(this.label7);
             this.panel2.Controls.Add(this.label1);
-            this.panel2.Location = new System.Drawing.Point(31, 187);
+            this.panel2.Location = new System.Drawing.Point(29, 161);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(184, 209);
+            this.panel2.Size = new System.Drawing.Size(184, 159);
             this.panel2.TabIndex = 27;
             // 
             // label15
@@ -1190,7 +1191,7 @@
             // 
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.ErrorImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(16, 422);
+            this.pictureBox1.Location = new System.Drawing.Point(16, 326);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(365, 108);
             this.pictureBox1.TabIndex = 114;
@@ -1199,7 +1200,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::SWRPGrc.Properties.Resources.rect3414;
-            this.pictureBox2.Location = new System.Drawing.Point(16, 541);
+            this.pictureBox2.Location = new System.Drawing.Point(16, 440);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(365, 107);
             this.pictureBox2.TabIndex = 115;
@@ -1209,7 +1210,7 @@
             // 
             this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
             this.pictureBox3.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.ErrorImage")));
-            this.pictureBox3.Location = new System.Drawing.Point(375, 130);
+            this.pictureBox3.Location = new System.Drawing.Point(348, 77);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(377, 51);
             this.pictureBox3.TabIndex = 116;
@@ -1219,7 +1220,7 @@
             // 
             this.pictureBox4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.BackgroundImage")));
             this.pictureBox4.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.ErrorImage")));
-            this.pictureBox4.Location = new System.Drawing.Point(362, 202);
+            this.pictureBox4.Location = new System.Drawing.Point(329, 135);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(415, 65);
             this.pictureBox4.TabIndex = 117;
@@ -1229,7 +1230,7 @@
             // 
             this.pictureBox5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox5.BackgroundImage")));
             this.pictureBox5.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox5.ErrorImage")));
-            this.pictureBox5.Location = new System.Drawing.Point(401, 283);
+            this.pictureBox5.Location = new System.Drawing.Point(374, 206);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(370, 99);
             this.pictureBox5.TabIndex = 118;
@@ -1239,7 +1240,7 @@
             // 
             this.pictureBox6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox6.BackgroundImage")));
             this.pictureBox6.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox6.ErrorImage")));
-            this.pictureBox6.Location = new System.Drawing.Point(544, 403);
+            this.pictureBox6.Location = new System.Drawing.Point(493, 311);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(178, 63);
             this.pictureBox6.TabIndex = 119;
@@ -1375,7 +1376,7 @@
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox6);
             this.Name = "CharacterSheet";
-            this.Size = new System.Drawing.Size(781, 806);
+            this.Size = new System.Drawing.Size(727, 675);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();

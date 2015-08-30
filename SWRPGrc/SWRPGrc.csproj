@@ -81,6 +81,66 @@
     <Compile Include="Views\CharacterSheet\CharacterSheet.Designer.cs">
       <DependentUpon>CharacterSheet.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\CharcterMain\CharacterMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\CharcterMain\CharacterMain.Designer.cs">
+      <DependentUpon>CharacterMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CharcterMain\NewCharacter\ScoreClassSpeciesMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\CharcterMain\NewCharacter\ScoreClassSpeciesMain.Designer.cs">
+      <DependentUpon>ScoreClassSpeciesMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CharcterMain\NewCharacter\ScoreClassSpecies\Score\Generators\PlannedGen\PlannedGenMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\CharcterMain\NewCharacter\ScoreClassSpecies\Score\Generators\PlannedGen\PlannedGenMain.Designer.cs">
+      <DependentUpon>PlannedGenMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CharcterMain\NewCharacter\ScoreClassSpecies\Score\Generators\RandomGen\RandomMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\CharcterMain\NewCharacter\ScoreClassSpecies\Score\Generators\RandomGen\RandomMain.Designer.cs">
+      <DependentUpon>RandomMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CharcterMain\NewCharacter\ScoreClassSpecies\Score\Generators\StandPack\StandPackMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\CharcterMain\NewCharacter\ScoreClassSpecies\Score\Generators\StandPack\StandPackMain.Designer.cs">
+      <DependentUpon>StandPackMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CharcterMain\NewCharacter\ScoreClassSpecies\Score\Info\PlannedGenInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\CharcterMain\NewCharacter\ScoreClassSpecies\Score\Info\PlannedGenInfo.Designer.cs">
+      <DependentUpon>PlannedGenInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CharcterMain\NewCharacter\ScoreClassSpecies\Score\Info\RandomInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\CharcterMain\NewCharacter\ScoreClassSpecies\Score\Info\RandomInfo.Designer.cs">
+      <DependentUpon>RandomInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CharcterMain\NewCharacter\ScoreClassSpecies\Score\Info\StndPackInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\CharcterMain\NewCharacter\ScoreClassSpecies\Score\Info\StndPackInfo.Designer.cs">
+      <DependentUpon>StndPackInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CharcterMain\NewCharacter\ScoreClassSpecies\Score\ScoreMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\CharcterMain\NewCharacter\ScoreClassSpecies\Score\ScoreMain.Designer.cs">
+      <DependentUpon>ScoreMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\HomeMain\HomeMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\HomeMain\HomeMain.Designer.cs">
+      <DependentUpon>HomeMain.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\Login.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -105,6 +165,12 @@
     <Compile Include="Views\MapperTest.Designer.cs">
       <DependentUpon>MapperTest.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\PlanMain\PlanMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\PlanMain\PlanMain.Designer.cs">
+      <DependentUpon>PlanMain.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\SignUp.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -128,6 +194,36 @@
     <EmbeddedResource Include="Views\CharacterSheet\CharacterSheet.resx">
       <DependentUpon>CharacterSheet.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\CharcterMain\CharacterMain.resx">
+      <DependentUpon>CharacterMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\CharcterMain\NewCharacter\ScoreClassSpeciesMain.resx">
+      <DependentUpon>ScoreClassSpeciesMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\CharcterMain\NewCharacter\ScoreClassSpecies\Score\Generators\PlannedGen\PlannedGenMain.resx">
+      <DependentUpon>PlannedGenMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\CharcterMain\NewCharacter\ScoreClassSpecies\Score\Generators\RandomGen\RandomMain.resx">
+      <DependentUpon>RandomMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\CharcterMain\NewCharacter\ScoreClassSpecies\Score\Generators\StandPack\StandPackMain.resx">
+      <DependentUpon>StandPackMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\CharcterMain\NewCharacter\ScoreClassSpecies\Score\Info\PlannedGenInfo.resx">
+      <DependentUpon>PlannedGenInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\CharcterMain\NewCharacter\ScoreClassSpecies\Score\Info\RandomInfo.resx">
+      <DependentUpon>RandomInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\CharcterMain\NewCharacter\ScoreClassSpecies\Score\Info\StndPackInfo.resx">
+      <DependentUpon>StndPackInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\CharcterMain\NewCharacter\ScoreClassSpecies\Score\ScoreMain.resx">
+      <DependentUpon>ScoreMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\HomeMain\HomeMain.resx">
+      <DependentUpon>HomeMain.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
@@ -139,6 +235,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\MapperTest.resx">
       <DependentUpon>MapperTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\PlanMain\PlanMain.resx">
+      <DependentUpon>PlanMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\SignUp.resx">
       <DependentUpon>SignUp.cs</DependentUpon>
@@ -158,6 +257,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\CharacterSheetImages\" />
+    <Folder Include="Views\CharcterMain\NewCharacter\ScoreClassSpecies\Class\" />
+    <Folder Include="Views\CharcterMain\NewCharacter\ScoreClassSpecies\Species\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\menu pictures\RPGcharactersheetexample0001.jpg" />
@@ -168,6 +269,7 @@
     <Content Include="Resources\CharacterSheets\CharacterSheetV3.5\characterSheetSide2.jpg" />
     <Content Include="Resources\CharacterSheets\CharacterSheetNewVersion\MI_StarWarsCharSheet20-page-001.jpg" />
     <Content Include="Resources\CharacterSheets\CharacterSheetNewVersion\MI_StarWarsCharSheet20-page-002.jpg" />
+    <None Include="Resources\WilmingtonMeeting8-8-15\Classes.pdf" />
     <None Include="Resources\newtest.png" />
     <None Include="Resources\rect3414.png" />
   </ItemGroup>
