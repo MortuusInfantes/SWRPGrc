@@ -15,5 +15,41 @@ namespace SWRPGrc.Views
         {
             InitializeComponent();
         }
+
+        private void BtnChar_Click(object sender, EventArgs e)
+        {
+            PanelMain.Controls.Clear();
+            PanelMain.Controls.Add(new SWRPGrc.Views.CharcterMain.CharacterMain());
+        }
+
+        private void BtnCamp_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Campaign stuff");
+        }
+
+        private void BtnPlan_Click(object sender, EventArgs e)
+        {
+            PanelMain.Controls.Clear();
+            
+        }
+
+        private void BtnPlay_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Play stuff");
+        }
+
+        private void BtnHome_Click(object sender, EventArgs e)
+        {
+            PanelMain.Controls.Clear();
+            PanelMain.Controls.Add(new SWRPGrc.Views.HomeMain.HomeMain());
+
+        }
+
+        private void BtnSet_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("settings stuff");
+        }
+
+        
     }
 }

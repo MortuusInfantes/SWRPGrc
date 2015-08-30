@@ -14,7 +14,7 @@ namespace SWRPGrc
         public Form1()
         {
             InitializeComponent();
-            this.Controls.Add(new SWRPGrc.Views.Welcome(this));
+            this.Controls.Add(new SWRPGrc.Views.MainMenu());
         }
 
         public void DisposeAllControls()
@@ -31,7 +31,7 @@ namespace SWRPGrc
         public void NavigateToCharacterSheet()
         {
             DisposeAllControls();
-            this.Controls.Add(new SWRPGrc.Views.CharacterSheet(this));
+            //this.Controls.Add(new SWRPGrc.Views.CharacterSheet(this));
         }
 
         public void NavigateToMapper()

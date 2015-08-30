@@ -59,7 +59,7 @@
             this.Controls.Add(this.btnMapper);
             this.Controls.Add(this.btnCharSheet);
             this.Name = "Welcome";
-            this.Size = new System.Drawing.Size(437, 415);
+            this.Size = new System.Drawing.Size(591, 487);
             this.ResumeLayout(false);
 
         }

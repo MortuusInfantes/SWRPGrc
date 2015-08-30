@@ -13,15 +13,15 @@ namespace SWRPGrc.Views
 {
     public partial class CharacterSheet : UserControl
     {
-        private Form1 parent;
+        //private Form1 parent;
 
         private PlayerCharacter characterSheet;
 
-        public CharacterSheet(Form1 parent)
+        public CharacterSheet()  //Form1 parent
         {
             InitializeComponent();
-            this.parent = parent;
-            characterSheet = new PlayerCharacter();
+        //    this.parent = parent;
+        //    characterSheet = new PlayerCharacter();
 
         }
 
